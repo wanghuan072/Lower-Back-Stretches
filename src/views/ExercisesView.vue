@@ -6,8 +6,10 @@
       <div class="container">
         <h1 class="page-title">Exercise Library</h1>
         <p class="page-description">
-          Discover a comprehensive collection of lower back stretches and exercises designed to
-          improve flexibility, reduce pain, and enhance your overall back health.
+          Discover a comprehensive collection of Lower Back Stretches and exercises designed to
+          improve flexibility, reduce pain, and enhance your overall back health. These
+          expert-guided Lower Back Stretches help you build a safer and stronger routine for
+          long-term spine wellness.
         </p>
 
         <!-- Tab分类切换 -->

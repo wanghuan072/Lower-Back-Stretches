@@ -1,7 +1,7 @@
 export const exercises = [
   {
     id: 1,
-    title: 'Back Exercises to Strengthen and Stretch (Bird-Dog) | HSS',
+    title: 'Lower Back Stretches (Bird-Dog) | HSS',
     description: 'The Bird-Dog pose is a great back exercise that strengthens and stretches your back at the same time.',
     imageUrl: '/images/index-01.webp',
     imageAlt: 'Back Exercises to Strengthen and Stretch (Bird-Dog)',
@@ -21,7 +21,7 @@ export const exercises = [
   },
   {
     id: 2,
-    title: 'Back Exercises to Strengthen and Stretch (Side Plank) | HSS',
+    title: 'Lower Back Stretches (Side Plank) | HSS',
     description: 'Side Plank is an excellent exercise for strengthening and stretching the back, particularly the obliques and other core muscles.',
     imageUrl: '/images/index-02.webp',
     imageAlt: 'Back Exercises to Strengthen and Stretch (Side Plank)',
@@ -39,7 +39,7 @@ export const exercises = [
   },
   {
     id: 3,
-    title: "Back Exercises to Strengthen and Stretch (Half-Kneeling Hip Flexor Stretch) | HSS",
+    title: "Lower Back Stretches (Half-Kneeling Hip Flexor Stretch) | HSS",
     description: 'This stretch is excellent for targeting the muscles in the front of your hip and thigh, which can help relieve lower back tension',
     imageUrl: '/images/index-03.webp',
     imageAlt: "Back Exercises to Strengthen and Stretch (Half-Kneeling Hip Flexor Stretch) | HSS",
@@ -58,7 +58,7 @@ export const exercises = [
   },
   {
     id: 4,
-    title: "Stretches and Exercises for Lower Back Pain (Seated Forward Bends) | HSS",
+    title: "Lower Back Stretches (Seated Forward Bends) | HSS",
     description: 'Seated forward bends can be a gentle and effective way to stretch the lower back and hamstrings, which can help alleviate lower back pain.',
     imageUrl: '/images/index-04.webp',
     imageAlt: "Stretches and Exercises for Lower Back Pain (Seated Forward Bends) | HSS",
@@ -77,7 +77,7 @@ export const exercises = [
   },
   {
     id: 5,
-    title: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) | HSS",
+    title: "Lower Back Stretches (Single Knee to Chest Exercise) | HSS",
     description: 'This type of stretch uses muscular contractions to improve flexibility, which can be beneficial for lower back pain.',
     imageUrl: '/images/index-05.webp',
     imageAlt: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) | HSS",
@@ -96,7 +96,7 @@ export const exercises = [
   },
   {
     id: 6,
-    title: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) | HSS ",
+    title: "Lower Back Stretches (Single Knee to Chest Exercise) | HSS ",
     description: 'The single knee-to-chest exercise is a gentle and effective stretch for the lower back and glutes, which can help relieve lower back pain. ',
     imageUrl: '/images/index-06.webp',
     imageAlt: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) | HSS ",
@@ -118,7 +118,7 @@ export const exercises = [
 
   {
     id: 7,
-    title: "Stretches and Exercises for Lower Back Pain (Prone Press Up On Elbows) | HSS",
+    title: "Lower Back Stretches (Prone Press Up On Elbows) | HSS",
     description: 'The prone press-up on elbows is a gentle back extension exercise that can help relieve lower back pain, especially after prolonged sitting. It is a part of the McKenzie Method for treating back pain.',
     imageUrl: '/images/index-07.webp',
     imageAlt: "Stretches and Exercises for Lower Back Pain (Prone Press Up On Elbows) | HSS",
@@ -139,7 +139,7 @@ export const exercises = [
 
   {
     id: 8,
-    title: "Stretches and Exercises for Lower Back Pain (Standing Lumbar Extension) | HSS",
+    title: "Lower Back Stretches (Standing Lumbar Extension) | HSS",
     description: 'The standing lumbar extension is a simple yet effective exercise for alleviating lower back pain, especially for those who experience relief from arching their back.',
     imageUrl: '/images/index-08.webp',
     imageAlt: "Stretches and Exercises for Lower Back Pain (Standing Lumbar Extension) | HSS",

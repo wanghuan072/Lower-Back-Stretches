@@ -20,10 +20,10 @@
             <section id="what-are-stretches" class="content-section">
               <h2 class="section-title">What are Lower Back Stretches?</h2>
               <p class="section-text">
-                Lower back stretches are gentle exercises designed to improve flexibility, reduce
-                pain, maintain posture, and prevent injuries in the lower back region. These
-                stretches help counteract the effects of prolonged sitting, poor posture, and daily
-                stress, ultimately improving your quality of life.
+                Lower Back Stretches are gentle exercises designed to improve flexibility, reduce
+                pain, maintain posture, and prevent injuries in the lower back region. Performing
+                regular Lower Back Stretches helps counteract the effects of prolonged sitting, poor
+                posture, and daily stress, ultimately improving your quality of life.
               </p>
 
               <div class="section-image">
@@ -33,15 +33,24 @@
               <div class="benefits-grid">
                 <div class="benefit-card pain-relief">
                   <h3>Pain Relief</h3>
-                  <p>Reduce chronic lower back pain and muscle tension</p>
+                  <p>
+                    Reduce chronic lower back pain and muscle tension with regular Lower Back
+                    Stretches
+                  </p>
                 </div>
                 <div class="benefit-card injury-prevention">
                   <h3>Injury Prevention</h3>
-                  <p>Strengthen and protect your spine from future injuries</p>
+                  <p>
+                    Strengthen and protect your spine from future injuries through proper Lower Back
+                    Stretches
+                  </p>
                 </div>
                 <div class="benefit-card better-mobility">
                   <h3>Better Mobility</h3>
-                  <p>Improve flexibility and range of motion in your back</p>
+                  <p>
+                    Improve flexibility and range of motion in your back by adding Lower Back
+                    Stretches to your routine
+                  </p>
                 </div>
               </div>
             </section>
@@ -107,9 +116,9 @@
               <h2 class="section-title">Benefits of Stretching</h2>
               <div class="benefits-content">
                 <p class="section-text">
-                  Regular stretching of the lower back provides numerous benefits that contribute to
-                  overall health and well-being. These exercises help maintain spinal health,
-                  improve posture, and reduce the risk of chronic pain conditions.
+                  Regular Lower Back Stretches provide numerous benefits that contribute to overall
+                  health and well-being. These exercises help maintain spinal health, improve
+                  posture, and reduce the risk of chronic pain conditions.
                 </p>
                 <ul class="benefits-list">
                   <li>Improves blood circulation to the back muscles</li>
@@ -129,25 +138,27 @@
                 <div class="safety-card">
                   <h3>Before You Start</h3>
                   <ul>
-                    <li>Warm up your muscles with light movement</li>
-                    <li>Ensure you have enough space to move freely</li>
-                    <li>Use a comfortable surface like a yoga mat</li>
+                    <li>
+                      Warm up your muscles with light movement before starting Lower Back Stretches
+                    </li>
+                    <li>Ensure you have enough space to move freely and safely</li>
+                    <li>Use a comfortable surface like a yoga mat for better support</li>
                   </ul>
                 </div>
                 <div class="safety-card">
                   <h3>During Stretching</h3>
                   <ul>
-                    <li>Breathe deeply and regularly</li>
-                    <li>Move slowly and avoid jerky movements</li>
-                    <li>Stop if you feel any sharp or severe pain</li>
+                    <li>Breathe deeply and regularly while performing Lower Back Stretches</li>
+                    <li>Move slowly and avoid jerky movements to protect your back</li>
+                    <li>Stop if you feel any sharp or severe pain during stretching</li>
                     <li>Don't force your body beyond its limits</li>
                   </ul>
                 </div>
                 <div class="safety-card">
                   <h3>When to Avoid</h3>
                   <ul>
-                    <li>If you have severe back pain or injury</li>
-                    <li>During pregnancy (consult your doctor)</li>
+                    <li>If you have severe back pain or injury, avoid Lower Back Stretches</li>
+                    <li>During pregnancy (consult your doctor before stretching)</li>
                     <li>If you have osteoporosis or other bone conditions</li>
                     <li>When experiencing dizziness or balance issues</li>
                   </ul>
@@ -162,31 +173,33 @@
                 <div class="faq-item">
                   <h3 class="faq-question">How often should I do these stretches?</h3>
                   <p class="faq-answer">
-                    For best results, aim to do these stretches 3-5 times per week. You can do them
-                    daily if you feel comfortable, but listen to your body and take rest days when
-                    needed.
+                    For best results, aim to do Lower Back Stretches 3-5 times per week. You can do
+                    them daily if you feel comfortable, but listen to your body and take rest days
+                    when needed.
                   </p>
                 </div>
                 <div class="faq-item">
                   <h3 class="faq-question">How long should I hold each stretch?</h3>
                   <p class="faq-answer">
-                    Hold static stretches for 20-30 seconds, and repeat dynamic movements 8-10
-                    times. The key is to move slowly and breathe deeply throughout the exercise.
+                    Hold static Lower Back Stretches for 20-30 seconds, and repeat dynamic movements
+                    8-10 times. The key is to move slowly and breathe deeply throughout the
+                    exercise.
                   </p>
                 </div>
                 <div class="faq-item">
                   <h3 class="faq-question">Can these stretches help with sciatica?</h3>
                   <p class="faq-answer">
-                    Gentle stretching may help relieve some sciatica symptoms, but it's important to
-                    consult with a healthcare professional for proper diagnosis and treatment.
+                    Gentle Lower Back Stretches may help relieve some sciatica symptoms, but it's
+                    important to consult with a healthcare professional for proper diagnosis and
+                    treatment.
                   </p>
                 </div>
                 <div class="faq-item">
                   <h3 class="faq-question">What if I feel pain during stretching?</h3>
                   <p class="faq-answer">
-                    Stop immediately if you feel sharp or severe pain. Some mild discomfort is
-                    normal, but pain is a sign that you should stop and consult a healthcare
-                    provider.
+                    Stop immediately if you feel sharp or severe pain during Lower Back Stretches.
+                    Some mild discomfort is normal, but pain is a sign that you should stop and
+                    consult a healthcare provider.
                   </p>
                 </div>
               </div>

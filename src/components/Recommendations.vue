@@ -5,19 +5,28 @@
       <div class="recommendation-item">
         <div class="rec-content">
           <h4>Morning Routine</h4>
-          <p>Start your day with 5-10 minutes of gentle stretches</p>
+          <p>
+            Start your day with 5-10 minutes of gentle Lower Back Stretches to boost flexibility and
+            reduce stiffness
+          </p>
         </div>
       </div>
       <div class="recommendation-item">
         <div class="rec-content">
           <h4>Popular Stretch</h4>
-          <p>Cat-Cow stretch is our most recommended exercise</p>
+          <p>
+            The Bird-Dog is one of our most recommended Lower Back Stretches for core and spine
+            stability
+          </p>
         </div>
       </div>
       <div class="recommendation-item">
         <div class="rec-content">
           <h4>Expert Tips</h4>
-          <p>Learn from certified physical therapists</p>
+          <p>
+            Learn Lower Back Stretches from certified physical therapists to ensure proper technique
+            and safety
+          </p>
         </div>
       </div>
     </div>
@@ -36,10 +45,16 @@
     <div class="recommendation-card did-you-know">
       <h3 class="recommendation-title">Did You Know?</h3>
       <div class="fact-item">
-        <p>80% of adults experience back pain at some point</p>
+        <p>
+          80% of adults experience back pain at some point, and regular Lower Back Stretches can
+          help reduce this risk
+        </p>
       </div>
       <div class="fact-item">
-        <p>Just 10 minutes daily can make a significant difference</p>
+        <p>
+          Just 10 minutes of Lower Back Stretches daily can make a significant difference in
+          flexibility and comfort
+        </p>
       </div>
     </div>
   </aside>

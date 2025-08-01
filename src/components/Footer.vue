@@ -10,8 +10,9 @@
               <span class="footer-logo-text">Lower Back Stretches</span>
             </div>
             <p class="footer-description">
-              Your trusted resource for lower back stretches and pain relief. Improve your
-              flexibility and reduce discomfort with our expert-guided exercises.
+              Your trusted resource for Lower Back Stretches and pain relief. Improve your
+              flexibility and reduce discomfort with our expert-guided Lower Back Stretches and
+              wellness exercises.
             </p>
             <div class="footer-care">
               <span>Made with care for your health and wellness</span>

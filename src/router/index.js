@@ -35,7 +35,7 @@ const routes = [
     meta: {
       title: 'Lower Back Pain Exercises | Stretches & Routines',
       description: 'Find safe and effective lower back exercises and stretches. Our tutorials with videos and guides help you relieve pain and improve your core strength.',
-      keywords: 'lower back exercises, back stretches, pain relief, core strength, sciatica, lumbar exercises, video guides'
+      keywords: 'lower back exercises, back stretches, pain relief, core strength, sciatica, lumbar exercises'
     }
   },
   {
