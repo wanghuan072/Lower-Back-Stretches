@@ -1,0 +1,27 @@
+/* 主要颜色变量 */
+:root {
+    /* 主色调 - 蓝色系 */
+    --color-primary: #3b82f6;
+    --color-primary-dark: #2563eb;
+    --color-primary-light: #eff6ff;
+
+    /* 文字颜色 */
+    --color-text-primary: #1f2937;
+    --color-text-secondary: #6b7280;
+    --color-text-tertiary: #374151;
+
+    /* 背景颜色 */
+    --color-bg-primary: #ffffff;
+    --color-bg-secondary: #f8fafc;
+    --color-bg-tertiary: #f3f4f6;
+
+    /* 边框颜色 */
+    --color-border: #e5e7eb;
+
+    /* 其他常用颜色 */
+    --color-success: #10b981;
+    --color-success-light: #ecfdf5;
+    --color-warning: #f59e0b;
+    --color-warning-light: #fef3c7;
+    --color-purple: #8b5cf6;
+}

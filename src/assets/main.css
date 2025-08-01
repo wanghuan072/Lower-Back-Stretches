@@ -1,0 +1,316 @@
+@import './base.css';
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#app {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    color: #1f2937;
+    background-color: #f8fafc;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 1rem;
+}
+
+.main-container {
+    padding: 3rem 0;
+}
+
+
+.page-title {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #1f2937;
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.page-description {
+    font-size: 1.125rem;
+    color: #6b7280;
+    text-align: center;
+    max-width: 600px;
+    margin: 0 auto 3rem;
+    line-height: 1.6;
+}
+
+
+
+@media (max-width: 1024px) {
+    .main-container {
+        padding: 2rem 0;
+    }
+
+    .page-title {
+        font-size: 2rem;
+    }
+
+    .page-description {
+        font-size: 1rem;
+        margin-bottom: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .main-container {
+        padding: 1rem 0;
+    }
+
+    .page-title {
+        font-size: 1.5rem;
+    }
+
+    .page-description {
+        font-size: 0.8rem;
+        margin-bottom: 1rem;
+    }
+}
+
+/* 详情页内容样式 */
+.details-content {
+    line-height: 1.6;
+    color: #374151;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* 添加平滑滚动效果 */
+.details-content h2,
+.details-content h3,
+.details-content h4,
+.details-content h5 {
+    scroll-margin-top: 100px;
+}
+
+.details-content h2 {
+    font-size: 1.75rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    padding: 0.8rem 1rem;
+    background: linear-gradient(135deg, #ffffff 0%, #f8fafc 100%);
+    border-radius: 0.75rem;
+    position: relative;
+    border: 1px solid #e5e7eb;
+    box-shadow: 0 2px 8px rgba(59, 130, 246, 0.1);
+    transition: all 0.3s ease;
+}
+
+
+.details-content h2::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    width: 4px;
+    background: linear-gradient(180deg, #3b82f6 0%, #1d4ed8 100%);
+    border-radius: 0.75rem 0 0 0.75rem;
+}
+
+.details-content h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #1f2937;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #e5e7eb;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.details-content h3::after {
+    content: '';
+    position: absolute;
+    bottom: -2px;
+    left: 0;
+    width: 60px;
+    height: 2px;
+    background: linear-gradient(90deg, #3b82f6, #93c5fd);
+    border-radius: 1px;
+}
+
+.details-content h4 {
+    font-size: 1.25rem;
+    font-weight: 500;
+    color: #3b82f6;
+    margin-bottom: 1rem;
+    position: relative;
+    transition: all 0.3s ease;
+}
+
+.details-content h4::before {
+    content: '▶';
+    color: #3b82f6;
+    margin-right: 0.5rem;
+    font-size: 0.75rem;
+    opacity: 0.7;
+}
+
+.details-content h5 {
+    font-size: 1.125rem;
+    font-weight: 500;
+    color: #1f2937;
+    margin-bottom: 1rem;
+}
+
+.details-content p {
+    margin-bottom: 1rem;
+    line-height: 1.5;
+    color: #6b7280;
+    font-size: 1rem;
+    text-align: justify;
+    hyphens: auto;
+}
+
+
+.details-content img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 0.75rem;
+    margin-bottom: 1rem;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+    border: 3px solid #f8fafc;
+}
+
+.details-content ul {
+    margin-bottom: 1rem;
+    padding-left: 0.5rem;
+    list-style: none;
+}
+
+.details-content ul li {
+    margin-bottom: 0.5rem;
+    line-height: 1.5;
+    color: #6b7280;
+    position: relative;
+    padding-left: 1.5rem;
+}
+
+.details-content ul li::before {
+    content: '•';
+    color: #3b82f6;
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+    top: 0;
+    font-size: 1.2rem;
+}
+
+/* 有序列表样式 */
+.details-content ol {
+    padding-left: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.details-content ol li {
+    margin-bottom: 0.75rem;
+    line-height: 1.5;
+    color: #4b5563;
+}
+
+.details-content table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.5rem 0;
+    background: white;
+    border-radius: 0.75rem;
+    overflow: hidden;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e5e7eb;
+}
+
+.details-content th {
+    background: #f3f4f6;
+    padding: 0.75rem;
+    text-align: left;
+    font-weight: 600;
+    color: #1f2937;
+    border-bottom: 1px solid #e5e7eb;
+}
+
+.details-content td {
+    padding: 0.75rem;
+    border-bottom: 1px solid #f3f4f6;
+    color: #6b7280;
+}
+
+.details-content tr:last-child td {
+    border-bottom: none;
+}
+
+.details-content tr:hover {
+    background: linear-gradient(135deg, #f8fafc 0%, #eff6ff 100%);
+    transition: background 0.3s ease;
+}
+
+/* 强调文本样式 */
+.details-content strong {
+    color: #1f2937;
+    font-weight: 600;
+    background: linear-gradient(120deg, #fef3c7 0%, #fde68a 100%);
+    padding: 0.1rem 0.3rem;
+    border-radius: 0.25rem;
+}
+
+/* 链接样式 */
+.details-content a {
+    color: #3b82f6;
+    text-decoration: none;
+    border-bottom: 1px dotted #3b82f6;
+    transition: all 0.3s ease;
+}
+
+.details-content a:hover {
+    color: #1d4ed8;
+    border-bottom: 2px solid #1d4ed8;
+    background: rgba(59, 130, 246, 0.1);
+    padding: 0.1rem 0.2rem;
+    border-radius: 0.25rem;
+}
+
+/* 响应式设计 */
+@media (max-width: 768px) {
+    .details-content h2 {
+        font-size: 1.2rem;
+        padding: 0.5rem 1rem;
+    }
+
+    .details-content h3 {
+        font-size: 1.1rem;
+    }
+
+    .details-content h4 {
+        font-size: 1rem;
+    }
+
+    .details-content h5 {
+        font-size: 1rem;
+    }
+
+    .details-content p {
+        font-size: 0.8rem;
+    }
+
+    .details-content ul li {
+        font-size: 0.8rem;
+    }
+
+    .details-content ol {
+        padding-left: 1rem;
+    }
+
+    .details-content ol li {
+        font-size: 0.8rem;
+        margin-bottom: 0.5rem;
+    }
+}

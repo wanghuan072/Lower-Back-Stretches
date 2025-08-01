@@ -1,0 +1,34 @@
+# Lower Back Stretches - Robots.txt
+# This file tells search engine crawlers which pages they can and cannot request from your site.
+
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# 禁止爬取管理页面和API
+Disallow: /admin
+Disallow: /api
+Disallow: /*.json
+
+# 站点地图位置
+Sitemap: https://lowerbackstretches.org/sitemap.xml
+
+# 爬取延迟（可选）
+Crawl-delay: 1
+
+# Additional rules for specific bots (optional)
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+User-agent: Slurp
+Allow: /
+
+# Block bad bots (optional)
+User-agent: BadBot
+Disallow: /
+
+User-agent: ScraperBot
+Disallow: / 
