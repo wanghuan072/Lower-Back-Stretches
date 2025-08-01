@@ -136,7 +136,7 @@
           <div class="copyright-section">
             <h2>Contact Information</h2>
             <p>For copyright-related inquiries, licensing requests, or infringement reports:</p>
-            <p>Email: <a href="mailto:jennifermontai77@gmail.com">jennifermontai77@gmail.com</a></p>
+            <p>Email: <a href="mailto:kadiyamobi89@gmail.com">kadiyamobi89@gmail.com</a></p>
           </div>
 
           <div class="copyright-section">

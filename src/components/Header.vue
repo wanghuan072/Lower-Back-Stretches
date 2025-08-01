@@ -3,7 +3,7 @@
     <div class="container">
       <div class="header-content">
         <div class="logo">
-          <!-- <span class="logo-icon">💙</span> -->
+          <img src="/images/logo.png" alt="Lower Back Stretches" class="logo-image" />
           <span class="logo-text">Lower Back Stretches</span>
         </div>
 
@@ -139,15 +139,15 @@ export default {
   transition: all 0.3s ease;
 }
 
+.logo-image {
+  width: 40px;
+  height: 40px;
+}
+
 .logo-icon {
   font-size: 2rem;
   filter: drop-shadow(0 0 8px rgba(59, 130, 246, 0.4));
   transition: all 0.3s ease;
-}
-
-.logo:hover .logo-icon {
-  filter: drop-shadow(0 0 12px rgba(59, 130, 246, 0.6));
-  transform: rotate(5deg);
 }
 
 .nav {

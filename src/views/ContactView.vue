@@ -11,9 +11,7 @@
           <div class="contact-section">
             <h2>Email</h2>
             <p>Send us an email and we'll respond within 24 hours:</p>
-            <a href="mailto:jennifermontai77@gmail.com" class="email-link"
-              >jennifermontai77@gmail.com</a
-            >
+            <a href="mailto:kadiyamobi89@gmail.com" class="email-link">kadiyamobi89@gmail.com</a>
           </div>
 
           <div class="contact-section">

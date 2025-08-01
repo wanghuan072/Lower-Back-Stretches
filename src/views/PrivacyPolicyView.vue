@@ -99,7 +99,7 @@
               If you have any questions about this Privacy Policy or our data practices, please
               contact us:
             </p>
-            <p>Email: <a href="mailto:jennifermontai77@gmail.com">jennifermontai77@gmail.com</a></p>
+            <p>Email: <a href="mailto:kadiyamobi89@gmail.com">kadiyamobi89@gmail.com</a></p>
           </div>
 
           <div class="policy-section">

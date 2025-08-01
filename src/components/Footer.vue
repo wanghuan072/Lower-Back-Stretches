@@ -6,6 +6,7 @@
         <div class="footer-column">
           <div class="footer-brand">
             <div class="footer-logo">
+              <img src="/images/logo.png" alt="Lower Back Stretches" class="footer-logo-image" />
               <span class="footer-logo-text">Lower Back Stretches</span>
             </div>
             <p class="footer-description">
@@ -23,7 +24,7 @@
           <ul class="footer-links">
             <li><a href="/" class="footer-link">Home</a></li>
             <li><a href="/exercises" class="footer-link">Exercises</a></li>
-            <li><a href="/articles" class="footer-link">Articles</a></li>
+            <li><a href="/blog" class="footer-link">Blog</a></li>
             <li><a href="/about" class="footer-link">About Us</a></li>
           </ul>
         </div>
@@ -72,12 +73,6 @@ export default {
   margin-top: auto;
 }
 
-.container {
-  max-width: 1400px;
-  margin: 0 auto;
-  width: 100%;
-}
-
 /* 上部分：三列布局 */
 .footer-top {
   display: grid;
@@ -95,6 +90,11 @@ export default {
   display: flex;
   flex-direction: column;
   gap: 1rem;
+}
+
+.footer-logo-image {
+  width: 40px;
+  height: 40px;
 }
 
 .footer-logo {
