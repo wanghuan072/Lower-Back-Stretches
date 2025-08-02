@@ -67,7 +67,6 @@
                 class="exercise-card"
               >
                 <div class="exercise-header">
-                  <!-- <div class="exercise-number">{{ exercise.number }}</div> -->
                   <h3 class="exercise-title">{{ exercise.title }}</h3>
                 </div>
                 <p class="exercise-description">{{ exercise.description }}</p>

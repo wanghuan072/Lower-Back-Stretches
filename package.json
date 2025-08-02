@@ -14,7 +14,6 @@
     "format": "prettier --write src/"
   },
   "dependencies": {
-    "pinia": "^3.0.3",
     "vue": "^3.5.18",
     "vue-router": "^4.5.1"
   },
@@ -29,7 +28,6 @@
     "prettier": "3.6.2",
     "terser": "^5.43.1",
     "vite": "^7.0.6",
-    "vite-plugin-compression": "^0.5.1",
     "vite-plugin-sitemap": "^0.8.2",
     "vite-plugin-vue-devtools": "^8.0.0"
   }

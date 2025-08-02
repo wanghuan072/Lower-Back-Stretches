@@ -17,7 +17,6 @@ export const exercises = [
       "Switch sides: Repeat the same movement, this time extending your left arm and right leg.",
       "Alternate: Continue alternating sides for the desired number of repetitions."
     ],
-    // noteText: 'Important: Stop immediately if you feel sharp pain. These stretches should feel comfortable and relaxing.'
   },
   {
     id: 2,
