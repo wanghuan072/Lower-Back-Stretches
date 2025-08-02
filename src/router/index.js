@@ -1,10 +1,10 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import { setPageSEO, getSEOFromRoute } from '../utils/seo.js'
-import { 
-  generateOrganizationSchema, 
-  generateWebsiteSchema, 
+import {
+  generateOrganizationSchema,
+  generateWebsiteSchema,
   generateBreadcrumbSchema,
-  insertMultipleStructuredData 
+  insertMultipleStructuredData
 } from '../utils/structuredData.js'
 import HomeView from '../views/HomeView.vue'
 import ExercisesView from '../views/ExercisesView.vue'
@@ -16,6 +16,7 @@ import PrivacyPolicyView from '../views/PrivacyPolicyView.vue'
 import TermsOfServiceView from '../views/TermsOfServiceView.vue'
 import CopyrightView from '../views/CopyrightView.vue'
 import ContactView from '../views/ContactView.vue'
+import { exercisesConfig } from '../data/exercises/index.js'
 
 const routes = [
   {
@@ -28,20 +29,29 @@ const routes = [
       keywords: 'lower back stretches, back pain relief, spine health, core strength, flexibility, sciatica exercises'
     }
   },
+  // 重定向旧的exercises路径到第一个分类
   {
     path: '/exercises',
-    name: 'exercises',
-    component: ExercisesView,
-    meta: {
-      title: 'Lower Back Pain Exercises | Stretches & Routines',
-      description: 'Find safe and effective lower back exercises and stretches. Our tutorials with videos and guides help you relieve pain and improve your core strength.',
-      keywords: 'lower back exercises, back stretches, pain relief, core strength, sciatica, lumbar exercises'
-    }
+    redirect: exercisesConfig[0]?.path || '/'
   },
+  // 动态生成exercises分类路由
+  ...exercisesConfig.map(config => ({
+    path: config.path,
+    name: config.id,
+    component: ExercisesView,
+    meta: config.seo
+  })),
+  // 动态生成exercises详情页路由
+  ...exercisesConfig.map(config => ({
+    path: `${config.path}/:slug`,
+    name: `${config.id}-detail`,
+    component: ExerciseDetailView,
+    props: true
+  })),
+  // 重定向旧的详情页路由到第一个分类
   {
     path: '/exercises/:slug',
-    name: 'exercise-detail',
-    component: ExerciseDetailView
+    redirect: to => `/lower-back-stretches/${to.params.slug}`
   },
   {
     path: '/blog',
@@ -118,8 +128,8 @@ const router = createRouter({
 // 全局路由守卫 - 处理页面TDK设置和结构化数据
 router.beforeEach((to, from, next) => {
   // 检查是否为详情页面（这些页面有自己的TDK设置逻辑）
-  const isDetailPage = to.name === 'exercise-detail' || to.name === 'blog-detail'
-  
+  const isDetailPage = to.name && (to.name.includes('-detail') || to.name === 'blog-detail')
+
   if (!isDetailPage) {
     // 为其他页面设置TDK和社交媒体标签
     const seo = getSEOFromRoute(to)
@@ -129,18 +139,18 @@ router.beforeEach((to, from, next) => {
       const canonicalUrl = `${baseUrl}${to.path}`
       setPageSEO(seo, canonicalUrl)
     }
-    
+
     // 插入基础结构化数据
     const baseSchemas = [
       generateOrganizationSchema(),
       generateWebsiteSchema()
     ]
-    
+
     // 为特定页面添加面包屑结构化数据
-    if (to.name === 'exercises') {
+    if (to.name && to.name.startsWith('tab-') && !to.name.includes('-detail')) {
       const breadcrumbSchema = generateBreadcrumbSchema([
         { name: 'Home', url: '/' },
-        { name: 'Exercises', url: '/exercises' }
+        { name: 'Exercises', url: to.path }
       ])
       baseSchemas.push(breadcrumbSchema)
     } else if (to.name === 'blog') {
@@ -150,10 +160,10 @@ router.beforeEach((to, from, next) => {
       ])
       baseSchemas.push(breadcrumbSchema)
     }
-    
+
     insertMultipleStructuredData(baseSchemas)
   }
-  
+
   next()
 })
 

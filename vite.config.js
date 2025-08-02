@@ -5,7 +5,7 @@ import vue from '@vitejs/plugin-vue'
 import vueJsx from '@vitejs/plugin-vue-jsx'
 import vueDevTools from 'vite-plugin-vue-devtools'
 import sitemap from 'vite-plugin-sitemap'
-import { getAllRoutes } from './src/utils/sitemapConfig.js'
+import { generateSitemapData } from './src/utils/sitemapConfig.js'
 
 // https://vite.dev/config/
 export default defineConfig({
@@ -15,7 +15,7 @@ export default defineConfig({
     vueDevTools(),
     sitemap({
       hostname: 'https://lowerbackstretches.org', // 替换为你的实际域名
-      dynamicRoutes: getAllRoutes(),
+      dynamicRoutes: generateSitemapData().map(item => item.url),
       generateRobotsTxt: false, // 使用自定义robots.txt
       readable: true, // 生成可读的XML格式
       allowRobots: true, // 允许搜索引擎爬取

@@ -1,5 +1,5 @@
 import { exercises as exercisesIndex } from '../data/index.js'
-import { exercises as exercisesDetail } from '../data/exercises.js'
+import { exercisesConfig } from '../data/exercises/index.js'
 import { articles } from '../data/blog.js'
 
 // 生成站点地图数据
@@ -15,12 +15,13 @@ export function generateSitemapData() {
       changefreq: 'weekly',
       priority: 1.0
     },
-    {
-      url: '/exercises',
+    // 动态生成exercises分类路由
+    ...exercisesConfig.map(config => ({
+      url: config.path,
       lastmod: currentDate,
       changefreq: 'weekly',
       priority: 0.9
-    },
+    })),
     {
       url: '/blog',
       lastmod: currentDate,
@@ -67,13 +68,16 @@ export function generateSitemapData() {
     priority: 0.7
   }))
 
-  // 生成练习详情页路由（来自exercises.js）
-  const exerciseRoutesDetail = exercisesDetail.map(exercise => ({
-    url: `/exercises/${exercise.addressBar}`,
-    lastmod: currentDate,
-    changefreq: 'monthly',
-    priority: 0.7
-  }))
+  // 生成练习详情页路由（来自exercises配置）
+  const exerciseRoutesDetail = exercisesConfig.reduce((acc, config) => {
+    const routes = config.data.map(exercise => ({
+      url: `${config.path}/${exercise.addressBar}`,
+      lastmod: currentDate,
+      changefreq: 'monthly',
+      priority: 0.7
+    }))
+    return acc.concat(routes)
+  }, [])
 
   // 生成博客详情页路由
   const blogRoutes = articles.map(article => ({
@@ -91,7 +95,6 @@ export function generateSitemapData() {
 export function getAllRoutes() {
   const staticRoutes = [
     '/',
-    '/exercises',
     '/blog',
     '/about',
     '/contact',
@@ -100,14 +103,20 @@ export function getAllRoutes() {
     '/copyright'
   ]
 
+  // 动态生成exercises分类路由
+  const exercisesRoutes = exercisesConfig.map(config => config.path)
+
   // 生成动态练习路由（来自index.js）
   const exerciseRoutesIndex = exercisesIndex.map(exercise => `/exercises/${exercise.id}`)
 
-  // 生成动态练习路由（来自exercises.js）
-  const exerciseRoutesDetail = exercisesDetail.map(exercise => `/exercises/${exercise.addressBar}`)
+  // 生成动态练习路由（来自exercises配置）
+  const exerciseRoutesDetail = exercisesConfig.reduce((acc, config) => {
+    const routes = config.data.map(exercise => `${config.path}/${exercise.addressBar}`)
+    return acc.concat(routes)
+  }, [])
 
   // 生成动态博客路由
   const blogRoutes = articles.map(article => `/blog/${article.addressBar}`)
 
-  return [...staticRoutes, ...exerciseRoutesIndex, ...exerciseRoutesDetail, ...blogRoutes]
+  return [...staticRoutes, ...exercisesRoutes, ...exerciseRoutesIndex, ...exerciseRoutesDetail, ...blogRoutes]
 } 

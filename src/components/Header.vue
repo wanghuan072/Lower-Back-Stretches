@@ -10,7 +10,10 @@
         <!-- 桌面端导航 -->
         <nav class="nav desktop-nav">
           <a href="/" class="nav-link" :class="{ active: $route.path === '/' }">Home</a>
-          <a href="/exercises" class="nav-link" :class="{ active: $route.path === '/exercises' }"
+          <a
+            href="/lower-back-stretches"
+            class="nav-link"
+            :class="{ active: $route.path.startsWith('/lower-back-stretches') }"
             >Exercises</a
           >
           <a href="/blog" class="nav-link" :class="{ active: $route.path === '/blog' }">Blog</a>
@@ -43,9 +46,9 @@
           Home
         </a>
         <a
-          href="/exercises"
+          href="/lower-back-stretches"
           class="mobile-nav-link"
-          :class="{ active: $route.path === '/exercises' }"
+          :class="{ active: $route.path.startsWith('/lower-back-stretches') }"
           @click="closeMenu"
         >
           Exercises

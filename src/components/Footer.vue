@@ -24,7 +24,7 @@
           <h4 class="footer-heading">Quick Links</h4>
           <ul class="footer-links">
             <li><a href="/" class="footer-link">Home</a></li>
-            <li><a href="/exercises" class="footer-link">Exercises</a></li>
+            <li><a href="/lower-back-stretches" class="footer-link">Exercises</a></li>
             <li><a href="/blog" class="footer-link">Blog</a></li>
             <li><a href="/about" class="footer-link">About Us</a></li>
           </ul>

@@ -4,29 +4,22 @@
 
     <div class="main-container">
       <div class="container">
-        <h1 class="page-title">Exercise Library</h1>
+        <h1 class="page-title">{{ currentConfig?.title || 'Exercise Library' }}</h1>
         <p class="page-description">
-          Discover a comprehensive collection of Lower Back Stretches and exercises designed to
-          improve flexibility, reduce pain, and enhance your overall back health. These
-          expert-guided Lower Back Stretches help you build a safer and stronger routine for
-          long-term spine wellness.
+          {{
+            currentConfig?.description ||
+            'Discover a comprehensive collection of Lower Back Stretches and exercises designed to improve flexibility, reduce pain, and enhance your overall back health.'
+          }}
         </p>
 
         <!-- Tab分类切换 -->
         <div class="tabs-container">
           <div class="tabs">
             <button
-              class="tab-button"
-              :class="{ active: activeCategory === 'all' }"
-              @click="setActiveCategory('all')"
-            >
-              All Exercises
-            </button>
-            <button
               v-for="category in categories"
               :key="category.value"
               class="tab-button"
-              :class="{ active: activeCategory === category.value }"
+              :class="{ active: $route.path === category.value }"
               @click="setActiveCategory(category.value)"
             >
               {{ category.label }}
@@ -79,7 +72,8 @@
 <script>
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
-import { exercises } from '@/data/exercises.js'
+import { getConfigByPath, getAllConfigs } from '@/data/exercises/index.js'
+import { setPageSEO } from '@/utils/seo.js'
 
 export default {
   name: 'ExercisesView',
@@ -89,38 +83,53 @@ export default {
   },
   data() {
     return {
-      exercises,
-      activeCategory: 'all',
-      categories: [
-        { value: 'lower-back-stretches', label: 'Lower Back Stretches' },
-        {
-          value: 'lower-back-stretches-for-pregnantwomen',
-          label: 'Lower Back Stretches for Pregnantwomen',
-        },
-        { value: 'lower-back-stretches-for-men', label: 'Lower Back Stretches for Men' },
-      ],
+      currentConfig: null,
+      exercises: [],
+      categories: [],
     }
   },
   mounted() {
     // 滚动到页面顶部
     window.scrollTo(0, 0)
+
+    // 根据当前路由获取配置和数据
+    this.loadCurrentConfig()
+
+    // 设置页面TDK
+    this.setPageTDK()
   },
   computed: {
     filteredExercises() {
-      if (this.activeCategory === 'all') {
-        return this.exercises
-      }
-      return this.exercises.filter(
-        (exercise) => exercise.categories && exercise.categories.includes(this.activeCategory)
-      )
+      return this.exercises
     },
   },
   methods: {
-    setActiveCategory(category) {
-      this.activeCategory = category
+    loadCurrentConfig() {
+      const currentPath = this.$route.path
+      this.currentConfig = getConfigByPath(currentPath)
+
+      if (this.currentConfig) {
+        this.exercises = this.currentConfig.data
+        this.categories = getAllConfigs().map((config) => ({
+          value: config.path,
+          label: config.name,
+        }))
+      }
+    },
+    setPageTDK() {
+      if (this.currentConfig && this.currentConfig.seo) {
+        const baseUrl = 'https://lowerbackstretches.org'
+        const canonicalUrl = `${baseUrl}${this.$route.path}`
+        setPageSEO(this.currentConfig.seo, canonicalUrl)
+      }
+    },
+    setActiveCategory(path) {
+      this.$router.push(path)
     },
     goToDetail(exercise) {
-      this.$router.push(`/exercises/${exercise.addressBar}`)
+      // 根据当前分类路径生成详情页URL
+      const currentPath = this.$route.path
+      this.$router.push(`${currentPath}/${exercise.addressBar}`)
     },
     formatDate(dateString) {
       const date = new Date(dateString)
@@ -129,6 +138,14 @@ export default {
         month: 'short',
         day: 'numeric',
       })
+    },
+  },
+  watch: {
+    $route(to, from) {
+      if (to.path !== from.path) {
+        this.loadCurrentConfig()
+        this.setPageTDK()
+      }
     },
   },
 }

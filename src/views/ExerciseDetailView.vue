@@ -7,7 +7,7 @@
         <div v-if="exercise" class="exercise-detail">
           <!-- 面包屑导航 -->
           <div class="breadcrumb">
-            <a href="/exercises" class="breadcrumb-link">Exercises</a>
+            <a :href="getCategoryPath()" class="breadcrumb-link">Exercises</a>
             <span class="breadcrumb-separator">/</span>
             <span class="breadcrumb-current">{{ exercise.title }}</span>
           </div>
@@ -82,7 +82,7 @@
         <div v-else class="error">
           <h2>Exercise Not Found</h2>
           <p>The exercise you're looking for doesn't exist.</p>
-          <a href="/exercises" class="back-link">Back to Exercises</a>
+          <a :href="getCategoryPath()" class="back-link">Back to Exercises</a>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@
 import Header from '@/components/Header.vue'
 import Footer from '@/components/Footer.vue'
 import Recommendations from '@/components/Recommendations.vue'
-import { exercises } from '@/data/exercises.js'
+import { allExercises, getConfigByPath } from '@/data/exercises/index.js'
 import { articles } from '@/data/blog.js'
 import { setDetailPageSEO } from '@/utils/seo.js'
 import {
@@ -114,7 +114,7 @@ export default {
   },
   data() {
     return {
-      exercises,
+      exercises: allExercises,
       articles,
       loading: true,
       videoLoaded: false,
@@ -147,8 +147,11 @@ export default {
             generateExerciseSchema(newExercise),
             generateBreadcrumbSchema([
               { name: 'Home', url: '/' },
-              { name: 'Exercises', url: '/exercises' },
-              { name: newExercise.title, url: `/exercises/${newExercise.addressBar}` },
+              { name: 'Exercises', url: this.getCategoryPath() },
+              {
+                name: newExercise.title,
+                url: `${this.getCategoryPath()}/${newExercise.addressBar}`,
+              },
             ]),
           ]
           insertMultipleStructuredData(schemas)
@@ -175,6 +178,14 @@ export default {
     },
     loadVideo() {
       this.videoLoaded = true
+    },
+    getCategoryPath() {
+      // 从当前路由路径中提取分类路径
+      const path = this.$route.path
+      const pathParts = path.split('/')
+      // 移除最后一个slug部分，得到分类路径
+      pathParts.pop()
+      return pathParts.join('/')
     },
   },
 }
