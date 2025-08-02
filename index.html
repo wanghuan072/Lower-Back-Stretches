@@ -36,19 +36,47 @@
     <!-- 默认Canonical URL -->
     <link rel="canonical" href="https://lowerbackstretches.org/">
 
-    <!-- CSS预加载优化 -->
+    <!-- 资源预加载优化 -->
+    <link rel="preload" href="/images/logo.png" as="image" type="image/png">
+    <link rel="preload" href="/og-image.webp" as="image" type="image/webp">
+    <link rel="dns-prefetch" href="https://www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.youtube.com">
+
+    <!-- 关键CSS内联 - 改善首屏渲染 -->
+    <style>
+      /* 关键渲染路径CSS */
+      * { padding: 0; margin: 0; box-sizing: border-box; }
+      #app { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; -webkit-font-smoothing: antialiased; -moz-osx-font-smoothing: grayscale; color: #1f2937; background-color: #f8fafc; min-height: 100vh; }
+      .container { max-width: 1400px; margin: 0 auto; width: 100%; padding: 0 1rem; }
+      .main-container { padding: 3rem 0; }
+      .page-title { font-size: 3rem; font-weight: bold; color: #1f2937; text-align: center; margin-bottom: 1rem; }
+      .page-description { font-size: 1.125rem; color: #6b7280; text-align: center; max-width: 1000px; margin: 0 auto 3rem; line-height: 1.6; }
+      @media (max-width: 768px) { .main-container { padding: 1rem 0; } .page-title { font-size: 1.5rem; } .page-description { font-size: 0.8rem; margin-bottom: 1rem; } }
+    </style>
+
+    <!-- 非关键CSS异步加载 -->
     <link rel="preload" href="/src/assets/main.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
     <noscript><link rel="stylesheet" href="/src/assets/main.css"></noscript>
 
-    <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-17JVT6CVSZ"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-17JVT6CVSZ');
-</script>
+    <!-- Google Analytics - 延迟加载 -->
+    <script>
+      // 延迟加载Google Analytics
+      window.addEventListener('load', function() {
+        setTimeout(function() {
+          var script = document.createElement('script');
+          script.async = true;
+          script.src = 'https://www.googletagmanager.com/gtag/js?id=G-17JVT6CVSZ';
+          document.head.appendChild(script);
+          
+          script.onload = function() {
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
+            gtag('config', 'G-17JVT6CVSZ');
+          };
+        }, 2000); // 延迟2秒加载
+      });
+    </script>
 
   </head>
   <body>

@@ -38,6 +38,13 @@ export default defineConfig({
   },
   build: {
     cssCodeSplit: true,
+    minify: 'terser',
+    terserOptions: {
+      compress: {
+        drop_console: true,
+        drop_debugger: true
+      }
+    },
     rollupOptions: {
       output: {
         assetFileNames: (assetInfo) => {
@@ -45,11 +52,17 @@ export default defineConfig({
             return 'assets/css/[name]-[hash][extname]';
           }
           return 'assets/[name]-[hash][extname]';
-        }
+        },
+        chunkFileNames: 'assets/js/[name]-[hash].js',
+        entryFileNames: 'assets/js/[name]-[hash].js'
       }
     }
   },
   css: {
     minify: true
+  },
+  // 性能优化配置
+  optimizeDeps: {
+    include: ['vue', 'vue-router', 'pinia']
   }
 })
