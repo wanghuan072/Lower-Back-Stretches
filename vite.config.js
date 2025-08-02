@@ -45,6 +45,10 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  // 添加资源预加载优化
+  optimizeDeps: {
+    include: ['vue', 'vue-router', 'pinia']
+  },
   build: {
     cssCodeSplit: true,
     // 添加资源优化
