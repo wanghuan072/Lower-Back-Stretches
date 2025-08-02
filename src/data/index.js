@@ -1,7 +1,7 @@
 export const exercises = [
   {
     id: 1,
-    title: 'Lower Back Stretches (Bird-Dog) | HSS',
+    title: 'Lower Back Stretches (Bird-Dog)',
     description: 'The Bird-Dog pose is a great back exercise that strengthens and stretches your back at the same time.',
     imageUrl: '/images/index-01.webp',
     imageAlt: 'Back Exercises to Strengthen and Stretch (Bird-Dog)',
@@ -21,7 +21,7 @@ export const exercises = [
   },
   {
     id: 2,
-    title: 'Lower Back Stretches (Side Plank) | HSS',
+    title: 'Lower Back Stretches (Side Plank)',
     description: 'Side Plank is an excellent exercise for strengthening and stretching the back, particularly the obliques and other core muscles.',
     imageUrl: '/images/index-02.webp',
     imageAlt: 'Back Exercises to Strengthen and Stretch (Side Plank)',
@@ -39,10 +39,10 @@ export const exercises = [
   },
   {
     id: 3,
-    title: "Lower Back Stretches (Half-Kneeling Hip Flexor Stretch) | HSS",
+    title: "Lower Back Stretches (Half-Kneeling Hip Flexor Stretch)",
     description: 'This stretch is excellent for targeting the muscles in the front of your hip and thigh, which can help relieve lower back tension',
     imageUrl: '/images/index-03.webp',
-    imageAlt: "Back Exercises to Strengthen and Stretch (Half-Kneeling Hip Flexor Stretch) | HSS",
+    imageAlt: "Back Exercises to Strengthen and Stretch (Half-Kneeling Hip Flexor Stretch)",
     videoUrl: 'https://www.youtube.com/embed/mzPvzMivukw',
     stepsList: [
       'Kneel down: Kneel on a soft surface, like a yoga mat, with one knee on the floor.',
@@ -58,10 +58,10 @@ export const exercises = [
   },
   {
     id: 4,
-    title: "Lower Back Stretches (Seated Forward Bends) | HSS",
+    title: "Lower Back Stretches (Seated Forward Bends)",
     description: 'Seated forward bends can be a gentle and effective way to stretch the lower back and hamstrings, which can help alleviate lower back pain.',
     imageUrl: '/images/index-04.webp',
-    imageAlt: "Stretches and Exercises for Lower Back Pain (Seated Forward Bends) | HSS",
+    imageAlt: "Stretches and Exercises for Lower Back Pain (Seated Forward Bends)",
     videoUrl: 'https://www.youtube.com/embed/PUVTGBARpoo',
     stepsList: [
       'Sit down: Sit on the floor with your legs extended straight out in front of you. You can sit on a folded towel or a cushion to elevate your hips slightly, which can make it easier to keep your back straight.',
@@ -77,10 +77,10 @@ export const exercises = [
   },
   {
     id: 5,
-    title: "Lower Back Stretches (Single Knee to Chest Exercise) | HSS",
+    title: "Lower Back Stretches (Single Knee to Chest Exercise)",
     description: 'This type of stretch uses muscular contractions to improve flexibility, which can be beneficial for lower back pain.',
     imageUrl: '/images/index-05.webp',
-    imageAlt: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) | HSS",
+    imageAlt: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise)",
     videoUrl: 'https://www.youtube.com/embed/Nzy6_F9s6QI',
     stepsList: [
       'Lie on your back: Lie on your back on a mat with both knees bent and your feet flat on the floor. This position helps to stabilize your pelvis and protect your lower back.',
@@ -96,10 +96,10 @@ export const exercises = [
   },
   {
     id: 6,
-    title: "Lower Back Stretches (Single Knee to Chest Exercise) | HSS ",
+    title: "Lower Back Stretches (Single Knee to Chest Exercise) ",
     description: 'The single knee-to-chest exercise is a gentle and effective stretch for the lower back and glutes, which can help relieve lower back pain. ',
     imageUrl: '/images/index-06.webp',
-    imageAlt: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) | HSS ",
+    imageAlt: "Stretches and Exercises for Lower Back Pain (Single Knee to Chest Exercise) ",
     videoUrl: 'https://www.youtube.com/embed/1UVIT5G1R2k',
     stepsList: [
       'Lie on your back: Lie on a mat or a soft surface with your knees bent and your feet flat on the floor.',
@@ -118,10 +118,10 @@ export const exercises = [
 
   {
     id: 7,
-    title: "Lower Back Stretches (Prone Press Up On Elbows) | HSS",
+    title: "Lower Back Stretches (Prone Press Up On Elbows)",
     description: 'The prone press-up on elbows is a gentle back extension exercise that can help relieve lower back pain, especially after prolonged sitting. It is a part of the McKenzie Method for treating back pain.',
     imageUrl: '/images/index-07.webp',
-    imageAlt: "Stretches and Exercises for Lower Back Pain (Prone Press Up On Elbows) | HSS",
+    imageAlt: "Stretches and Exercises for Lower Back Pain (Prone Press Up On Elbows)",
     videoUrl: 'https://www.youtube.com/embed/P38STT4wM28',
     stepsList: [
       'Lie on your stomach: Lie face down on a mat or a firm surface.',
@@ -139,10 +139,10 @@ export const exercises = [
 
   {
     id: 8,
-    title: "Lower Back Stretches (Standing Lumbar Extension) | HSS",
+    title: "Lower Back Stretches (Standing Lumbar Extension)",
     description: 'The standing lumbar extension is a simple yet effective exercise for alleviating lower back pain, especially for those who experience relief from arching their back.',
     imageUrl: '/images/index-08.webp',
-    imageAlt: "Stretches and Exercises for Lower Back Pain (Standing Lumbar Extension) | HSS",
+    imageAlt: "Stretches and Exercises for Lower Back Pain (Standing Lumbar Extension)",
     videoUrl: 'https://www.youtube.com/embed/B2JbQVc7yOA',
     stepsList: [
       'Stand tall: Stand with your feet about shoulder-width apart.',
