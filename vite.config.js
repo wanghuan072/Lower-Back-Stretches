@@ -36,4 +36,20 @@ export default defineConfig({
       '@': fileURLToPath(new URL('./src', import.meta.url))
     },
   },
+  build: {
+    cssCodeSplit: true,
+    rollupOptions: {
+      output: {
+        assetFileNames: (assetInfo) => {
+          if (assetInfo.name.endsWith('.css')) {
+            return 'assets/css/[name]-[hash][extname]';
+          }
+          return 'assets/[name]-[hash][extname]';
+        }
+      }
+    }
+  },
+  css: {
+    minify: true
+  }
 })
