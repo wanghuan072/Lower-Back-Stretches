@@ -1,21 +1,21 @@
 export const exercises = [
-  {
-    "id": 1,
-    "title": "10-Minute Lower Back Pain Relief Exercises & Stretches",
-    "date": "2025-8-1",
-    "imageUrl": "/images/exercises/exercises-01.webp",
-    "imageAlt": "A person performing a lower back pain relief stretch on a mat.",
-    "iframeUrl": "https://www.youtube.com/embed/r5HvNULtvbE",
-    "categories": ["lower-back-stretches"],
-    "duration": "10 minutes",
-    "addressBar": "back-pain-relief-exercises-stretches",
-    "description": "This video offers a 10-minute routine of exercises for lower back pain. It focuses on improving spinal mobility and stretching the hamstrings and glutes to effectively relieve and prevent back pain.",
-    "seo": {
-        "title": "10-Minute Lower Back Pain Relief Exercises: Improve Spinal Mobility",
-        "description": "This 10-minute routine, led by HASfit coaches, includes exercises like Cat-Cow and Page Turner. Learn how to use these movements to soothe your pain and maintain a healthy, flexible spine.",
-        "keywords": "lower back pain, back pain relief, back stretches, core strengthening, home workout, Cat-Cow, Page Turner, spinal mobility"
-    },
-    "detailsHtml": `
+    {
+        "id": 1,
+        "title": "10-Minute Lower Back Pain Relief Exercises & Stretches",
+        "date": "2025-8-1",
+        "imageUrl": "/images/exercises/exercises-01.webp",
+        "imageAlt": "A person performing a lower back pain relief stretch on a mat.",
+        "iframeUrl": "https://www.youtube.com/embed/r5HvNULtvbE",
+        "categories": ["lower-back-stretches"],
+        "duration": "10 minutes",
+        "addressBar": "back-pain-relief-exercises-stretches",
+        "description": "This video offers a 10-minute routine of exercises for lower back pain. It focuses on improving spinal mobility and stretching the hamstrings and glutes to effectively relieve and prevent back pain.",
+        "seo": {
+            "title": "10-Minute Lower Back Pain Relief Exercises: Improve Spinal Mobility",
+            "description": "This 10-minute routine, led by HASfit coaches, includes exercises like Cat-Cow and Page Turner. Learn how to use these movements to soothe your pain and maintain a healthy, flexible spine.",
+            "keywords": "lower back pain, back pain relief, back stretches, core strengthening, home workout, Cat-Cow, Page Turner, spinal mobility"
+        },
+        "detailsHtml": `
         <h2>10-Minute Lower Back Pain Relief Routine</h2>
         <p>This 10-minute routine, guided by HASfit coaches Kat and Claudia, is designed for anyone experiencing lower back pain. The various movements aim to improve spinal mobility and increase flexibility in the hamstrings and glutes, which are common culprits behind back pain. The coaches emphasize that consistency is key; this is not a one-time fix. For best results, perform this routine 2-4 times a week initially, and then reduce it to 1-2 times a week for maintenance.</p>
         
@@ -40,25 +40,25 @@ export const exercises = [
 
         <p>The coaches also suggest using a chair for support when getting down to the floor or a towel/band to assist with stretches if needed.</p>
     `
-},
+    },
 
-{
-  "id": 2,
-  "title": "Sciatica Pain Relief Exercises & Stretches - 10-Minute Routine",
-  "date": "2025-8-1",
-  "imageUrl": "/images/exercises/exercises-02.webp",
-  "imageAlt": "A person performing a sciatica pain relief stretch on a mat.",
-  "iframeUrl": "https://www.youtube.com/embed/rtpqjQQazeg",
-  "categories": ["lower-back-stretches"],
-  "duration": "10 minutes",
-  "addressBar": "sciatica-pain-relief-exercises-stretches",
-  "description": "This video provides a 10-minute routine of exercises and stretches for sciatica pain relief. Learn how to improve mobility, decrease inflammation, and strengthen supporting muscles to alleviate discomfort.",
-  "seo": {
-      "title": "10-Minute Sciatica Relief Exercises: Improve Mobility & Strengthen Core",
-      "description": "This 10-minute sciatica relief routine includes exercises like Seated Nerve Flossing and Bird Dog. Led by a coach, it's designed to help you improve spinal mobility, strengthen your core, and find lasting relief from sciatica pain.",
-      "keywords": "sciatica pain, sciatica exercises, sciatica stretches, sciatica relief, nerve flossing, core strengthening, at-home exercises"
-  },
-  "detailsHtml": `
+    {
+        "id": 2,
+        "title": "Sciatica Pain Relief Exercises & Stretches - 10-Minute Routine",
+        "date": "2025-8-1",
+        "imageUrl": "/images/exercises/exercises-02.webp",
+        "imageAlt": "A person performing a sciatica pain relief stretch on a mat.",
+        "iframeUrl": "https://www.youtube.com/embed/rtpqjQQazeg",
+        "categories": ["lower-back-stretches"],
+        "duration": "10 minutes",
+        "addressBar": "sciatica-pain-relief-exercises-stretches",
+        "description": "This video provides a 10-minute routine of exercises and stretches for sciatica pain relief. Learn how to improve mobility, decrease inflammation, and strengthen supporting muscles to alleviate discomfort.",
+        "seo": {
+            "title": "10-Minute Sciatica Relief Exercises: Improve Mobility & Strengthen Core",
+            "description": "This 10-minute sciatica relief routine includes exercises like Seated Nerve Flossing and Bird Dog. Led by a coach, it's designed to help you improve spinal mobility, strengthen your core, and find lasting relief from sciatica pain.",
+            "keywords": "sciatica pain, sciatica exercises, sciatica stretches, sciatica relief, nerve flossing, core strengthening, at-home exercises"
+        },
+        "detailsHtml": `
      <h2>The 10-Minute Sciatica Pain Relief Routine</h2>
         <p>If you're dealing with sciatica, this 10-minute routine is a powerful tool to help you find relief. Led by a professional coach, this set of exercises and stretches is designed to address the root causes of your pain by improving mobility, reducing inflammation, and building strength in the surrounding muscles. The goal is not just to manage the pain, but to create a more resilient body that prevents it from returning.</p>
         <p>This routine is broken down into specific movements that target key areas, from gentle nerve glides to core-strengthening exercises. Consistency is key to seeing results. It's recommended to perform this routine three times per week during periods of pain and then reduce it to one to two times per week for maintenance.</p>
@@ -82,25 +82,25 @@ export const exercises = [
 
         <p>By consistently incorporating these exercises, you can not only find immediate relief from sciatica pain but also build the strength and mobility needed to prevent it from returning.</p>
   `
-},
+    },
 
-{
-  "id": 3,
-  "title": "Lower Back Stretches for Flexibility & Pain Relief",
-  "date": "2025-8-1",
-  "imageUrl": "/images/exercises/exercises-03.webp",
-  "imageAlt": "A person performing a lower back stretch on a mat.",
-  "iframeUrl": "https://www.youtube.com/embed/7V-EbW-DmN0",
-  "categories": ["lower-back-stretches"],
-  "duration": "10 minutes",
-  "addressBar": "lower-back-stretches-for-pain-relief",
-  "description": "This video offers an equipment-free lower back stretch routine designed to help you improve flexibility and mobility, while reducing tension and pain caused by tightness.",
-  "seo": {
-      "title": "Lower Back Stretches: 10-Minute Routine for Pain Relief & Flexibility",
-      "description": "Learn this 10-minute lower back stretch routine, featuring exercises like Cat-Cow, Cobra Stretch, and Pelvic Push. These stretches help reduce back tension, improve spinal mobility, and provide relief from pain.",
-      "keywords": "lower back stretches, lower back pain, pain relief, spinal flexibility, at-home stretches, Cat-Cow, Cobra Stretch"
-  },
-  "detailsHtml": `
+    {
+        "id": 3,
+        "title": "Lower Back Stretches for Flexibility & Pain Relief",
+        "date": "2025-8-1",
+        "imageUrl": "/images/exercises/exercises-03.webp",
+        "imageAlt": "A person performing a lower back stretch on a mat.",
+        "iframeUrl": "https://www.youtube.com/embed/7V-EbW-DmN0",
+        "categories": ["lower-back-stretches"],
+        "duration": "10 minutes",
+        "addressBar": "lower-back-stretches-for-pain-relief",
+        "description": "This video offers an equipment-free lower back stretch routine designed to help you improve flexibility and mobility, while reducing tension and pain caused by tightness.",
+        "seo": {
+            "title": "Lower Back Stretches: 10-Minute Routine for Pain Relief & Flexibility",
+            "description": "Learn this 10-minute lower back stretch routine, featuring exercises like Cat-Cow, Cobra Stretch, and Pelvic Push. These stretches help reduce back tension, improve spinal mobility, and provide relief from pain.",
+            "keywords": "lower back stretches, lower back pain, pain relief, spinal flexibility, at-home stretches, Cat-Cow, Cobra Stretch"
+        },
+        "detailsHtml": `
       <h2>Lower Back Stretch Routine</h2>
       <p>This video provides an equipment-free lower back stretch routine designed to help you improve flexibility and mobility, while reducing tension and pain. All you need is a mat (depending on your surface) to get started with this 10-minute practice.</p>
 
@@ -135,25 +135,25 @@ export const exercises = [
 
       <p>These stretches help release tension in your lower back, hips, and legs, and with consistent practice, can effectively reduce pain and increase your body's flexibility.</p>
   `
-},
+    },
 
-{
-  "id": 4,
-  "title": "Lower Back Rehab Workout: 25-Minute Routine for Pain Relief",
-  "date": "2025-8-1",
-  "imageUrl": "/images/exercises/exercises-04.webp",
-  "imageAlt": "A coach guiding a lower back rehab workout.",
-  "iframeUrl": "https://www.youtube.com/embed/b4ZnvU3QkRM",
-  "categories": ["lower-back-stretches"],
-  "duration": "25 minutes",
-  "addressBar": "lower-back-rehab-workout",
-  "description": "This video offers a complete 25-minute lower back rehab routine, combining stretches and strength training to effectively relieve pain and improve your quality of life. This workout requires no equipment and is perfect for home practice.",
-  "seo": {
-      "title": "25-Minute Lower Back Rehab Workout: Stretches & Strengthening",
-      "description": "This 25-minute lower back rehab routine, led by Coaches Kozak and Claudia, covers stretches like Cat-Cow and Cobra, along with core-strengthening exercises like Hip Bridges and Superman. Improve your spinal mobility and build a stronger back to prevent pain from returning.",
-      "keywords": "lower back pain, lower back rehab, stretches, core strengthening, home workout, Cat-Cow, Superman, Hip Bridge, spinal mobility"
-  },
-  "detailsHtml": `
+    {
+        "id": 4,
+        "title": "Lower Back Rehab Workout: 25-Minute Routine for Pain Relief",
+        "date": "2025-8-1",
+        "imageUrl": "/images/exercises/exercises-04.webp",
+        "imageAlt": "A coach guiding a lower back rehab workout.",
+        "iframeUrl": "https://www.youtube.com/embed/b4ZnvU3QkRM",
+        "categories": ["lower-back-stretches"],
+        "duration": "25 minutes",
+        "addressBar": "lower-back-rehab-workout",
+        "description": "This video offers a complete 25-minute lower back rehab routine, combining stretches and strength training to effectively relieve pain and improve your quality of life. This workout requires no equipment and is perfect for home practice.",
+        "seo": {
+            "title": "25-Minute Lower Back Rehab Workout: Stretches & Strengthening",
+            "description": "This 25-minute lower back rehab routine, led by Coaches Kozak and Claudia, covers stretches like Cat-Cow and Cobra, along with core-strengthening exercises like Hip Bridges and Superman. Improve your spinal mobility and build a stronger back to prevent pain from returning.",
+            "keywords": "lower back pain, lower back rehab, stretches, core strengthening, home workout, Cat-Cow, Superman, Hip Bridge, spinal mobility"
+        },
+        "detailsHtml": `
       <h2>25-Minute Lower Back Rehab Routine</h2>
       <p>This video provides a complete 25-minute lower back rehab workout, led by HASfit coaches Kozak and Claudia, to help you effectively relieve lower back pain and improve your quality of life. The routine requires no equipment (though a mat is recommended) and is divided into two main parts: stretching and strengthening.</p>
       <p>The coaches emphasize that strong glutes and hamstrings are key to protecting your lower back, and this workout will target both areas. Most importantly, it encourages you to progress at your own pace and be proud of taking steps to improve your health.</p>
@@ -189,27 +189,27 @@ export const exercises = [
       <p>From a high plank or kneeling position, you raise one leg straight up, using your glutes to drive your heel toward the ceiling.</p>
       <p>By combining stretches and strengthening exercises, this routine provides a comprehensive approach to lower back care, helping you move towards a pain-free life.</p>
   `
-},
+    },
 
-// 
+    // 
 
-{
-  "id": 5,
-  "title": "8 Best Pregnancy Stretches for Lower Back Pain Relief",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-05.webp",
-  "imageAlt": "A pregnant woman performing a prenatal stretch.",
-  "iframeUrl": "https://www.youtube.com/embed/B8bTXHnyGGM",
-  "categories": ["lower-back-stretches-for-pregnantwomen"],
-  "duration": "10 minutes",
-  "addressBar": "prenatal-stretches-for-low-back-pain",
-  "description": "This video offers a 10-minute prenatal stretch routine designed to help women relieve lower back and sciatica pain during pregnancy while improving core and pelvic mobility.",
-  "seo": {
-      "title": "8 Best Pregnancy Stretches for Lower Back Pain Relief: A 10-Minute Routine",
-      "description": "Learn this 10-minute prenatal stretch routine, which includes core breathing, seated stretches, and child's pose rocks. These movements help to relieve tension in your lower back and hips, safely soothe pain, and prepare for labor.",
-      "keywords": "prenatal exercises, pregnancy stretches, lower back pain relief, sciatica pain, pregnancy workouts, core breathing, child's pose, pelvic floor"
-  },
-  "detailsHtml": `
+    {
+        "id": 5,
+        "title": "8 Best Pregnancy Stretches for Lower Back Pain Relief",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-05.webp",
+        "imageAlt": "A pregnant woman performing a prenatal stretch.",
+        "iframeUrl": "https://www.youtube.com/embed/B8bTXHnyGGM",
+        "categories": ["lower-back-stretches-for-pregnantwomen"],
+        "duration": "10 minutes",
+        "addressBar": "prenatal-stretches-for-low-back-pain",
+        "description": "This video offers a 10-minute prenatal stretch routine designed to help women relieve lower back and sciatica pain during pregnancy while improving core and pelvic mobility.",
+        "seo": {
+            "title": "8 Best Pregnancy Stretches for Lower Back Pain Relief: A 10-Minute Routine",
+            "description": "Learn this 10-minute prenatal stretch routine, which includes core breathing, seated stretches, and child's pose rocks. These movements help to relieve tension in your lower back and hips, safely soothe pain, and prepare for labor.",
+            "keywords": "prenatal exercises, pregnancy stretches, lower back pain relief, sciatica pain, pregnancy workouts, core breathing, child's pose, pelvic floor"
+        },
+        "detailsHtml": `
       <h2>8 Best Pregnancy Stretches for Lower Back Pain Relief</h2>
       <p>This video provides a 10-minute prenatal stretch routine for women to help relieve common lower back pain during pregnancy. The eight stretches, held for about 40 seconds each, not only improve mobility but also strengthen the core, preparing you for labor and the later stages of pregnancy.</p>
 
@@ -239,25 +239,25 @@ export const exercises = [
       <p>The final stretch uses a foam roller for support in a puppy dog pose. With hips high and hands on the roller, you get more extension in the lower back and spine. The instructor also demonstrates foam-rolling the glute and piriformis to keep them loose and prevent sciatica.</p>
       <p>These gentle and safe stretches are an ideal way for expectant mothers to stay comfortable and mobile throughout their pregnancy.</p>
   `
-},
+    },
 
-{
-  "id": 6,
-  "title": "Pregnancy Back Pain Relief",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-06.webp",
-  "imageAlt": "A pregnant woman performing a prenatal stretch.",
-  "iframeUrl": "https://www.youtube.com/embed/33LLeqyVbG0",
-  "categories": ["lower-back-stretches-for-pregnantwomen"],
-  "duration": "15 minutes",
-  "addressBar": "pregnancy-back-pain-relief",
-  "description": "This video provides a routine of stretches and exercises designed for pregnant women to help relieve and prevent common back pain during pregnancy.",
-  "seo": {
-      "title": "Pregnancy Back Pain Relief: Prenatal Stretches & Core Strengthening",
-      "description": "This prenatal workout includes hip circles, Cat-Cow, and glute bridges. Use these stretches and strengthening exercises to improve back and pelvic mobility and build core strength, effectively relieving back discomfort during pregnancy.",
-      "keywords": "prenatal exercises, pregnancy back pain, prenatal stretches, core strengthening, glute bridges, Cat-Cow, pelvic tilts"
-  },
-  "detailsHtml": `
+    {
+        "id": 6,
+        "title": "Pregnancy Back Pain Relief",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-06.webp",
+        "imageAlt": "A pregnant woman performing a prenatal stretch.",
+        "iframeUrl": "https://www.youtube.com/embed/33LLeqyVbG0",
+        "categories": ["lower-back-stretches-for-pregnantwomen"],
+        "duration": "15 minutes",
+        "addressBar": "pregnancy-back-pain-relief",
+        "description": "This video provides a routine of stretches and exercises designed for pregnant women to help relieve and prevent common back pain during pregnancy.",
+        "seo": {
+            "title": "Pregnancy Back Pain Relief: Prenatal Stretches & Core Strengthening",
+            "description": "This prenatal workout includes hip circles, Cat-Cow, and glute bridges. Use these stretches and strengthening exercises to improve back and pelvic mobility and build core strength, effectively relieving back discomfort during pregnancy.",
+            "keywords": "prenatal exercises, pregnancy back pain, prenatal stretches, core strengthening, glute bridges, Cat-Cow, pelvic tilts"
+        },
+        "detailsHtml": `
       <h2>Pregnancy Back Pain Relief</h2>
       <p>This video provides a routine of stretches and exercises designed for pregnant women to help relieve and prevent common back pain. Part of a prenatal yoga and fitness series, this routine combines soothing stretches with strengthening exercises. The hosts advise consulting a doctor or physical therapist before starting and to always listen to your body, avoiding any movements that cause pain. You can use a pillow, bolster, or a light weight like a water bottle to assist with some moves, though they are not required.</p>
       
@@ -287,25 +287,25 @@ export const exercises = [
 
       <p>The video concludes with the host encouraging viewers to check out other free resources, such as a guide on coping with labor pain and pregnancy meal plans, to get comprehensive support.</p>
   `
-},
+    },
 
-{
-  "id": 7,
-  "title": "Prenatal Yoga to Fix Sciatica & Lower Back Pain",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-07.webp",
-  "imageAlt": "A pregnant woman performing a prenatal yoga stretch.",
-  "iframeUrl": "https://www.youtube.com/embed/SXUGOjs1g40",
-  "categories": ["lower-back-stretches-for-pregnantwomen"],
-  "duration": "25 minutes",
-  "addressBar": "prenatal-yoga-sciatica-back-pain",
-  "description": "This video offers a 25-minute prenatal yoga class designed to help relieve and prevent sciatica and lower back pain during pregnancy through stretches and strengthening exercises.",
-  "seo": {
-      "title": "25-Minute Prenatal Yoga: Sciatica & Lower Back Pain Relief",
-      "description": "This 25-minute prenatal yoga class includes a variety of poses like Cat-Cow, High Lunge, and Pigeon Pose. It's designed to decompress the sciatic nerve, stabilize the pelvis, and provide comfort and strength for expectant mothers.",
-      "keywords": "prenatal yoga, pregnancy workout, sciatica, lower back pain, pregnancy stretches, Pigeon Pose, Cat-Cow"
-  },
-  "detailsHtml": `
+    {
+        "id": 7,
+        "title": "Prenatal Yoga to Fix Sciatica & Lower Back Pain",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-07.webp",
+        "imageAlt": "A pregnant woman performing a prenatal yoga stretch.",
+        "iframeUrl": "https://www.youtube.com/embed/SXUGOjs1g40",
+        "categories": ["lower-back-stretches-for-pregnantwomen"],
+        "duration": "25 minutes",
+        "addressBar": "prenatal-yoga-sciatica-back-pain",
+        "description": "This video offers a 25-minute prenatal yoga class designed to help relieve and prevent sciatica and lower back pain during pregnancy through stretches and strengthening exercises.",
+        "seo": {
+            "title": "25-Minute Prenatal Yoga: Sciatica & Lower Back Pain Relief",
+            "description": "This 25-minute prenatal yoga class includes a variety of poses like Cat-Cow, High Lunge, and Pigeon Pose. It's designed to decompress the sciatic nerve, stabilize the pelvis, and provide comfort and strength for expectant mothers.",
+            "keywords": "prenatal yoga, pregnancy workout, sciatica, lower back pain, pregnancy stretches, Pigeon Pose, Cat-Cow"
+        },
+        "detailsHtml": `
       <h2>Prenatal Yoga for Sciatica & Lower Back Pain</h2>
       <p>This video provides a 25-minute prenatal yoga class designed to help expectant mothers relieve and prevent sciatica and lower back pain. The instructor explains that these exercises will help take pressure off the sciatic nerve and stabilize the pelvis. The class offers modifications for many poses, suggesting the use of a block or pillow for support, allowing you to adjust the practice to your body's needs.</p>
 
@@ -346,25 +346,25 @@ export const exercises = [
           <li><strong>Savasana (Final Resting Pose):</strong> The instructor suggests a modified Savasana by lying on your side with a pillow for support. A specific tip is to lie on the side that is not experiencing as much pain, if possible.</li>
       </ul>
   `
-},
+    },
 
-{
-  "id": 8,
-  "title": "PREGNANCY SCIATICA PAIN Relief | Prenatal Stretches to Relieve Back & Leg Pain",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-08.webp",
-  "imageAlt": "A pregnant woman performing a prenatal stretch.",
-  "iframeUrl": "https://www.youtube.com/embed/5WAR2-dfa6c",
-  "categories": ["lower-back-stretches-for-pregnantwomen"],
-  "duration": "15 minutes",
-  "addressBar": "pregnancy-sciatica-pain-relief-stretches",
-  "description": "This video, led by a certified pre- and postnatal fitness instructor named Sally, offers a series of stretches designed for pregnancy sciatica pain to help relieve lower back and leg pain.",
-  "seo": {
-      "title": "Pregnancy Sciatica Pain Relief: A Guide to Prenatal Stretches",
-      "description": "This prenatal stretch routine, guided by instructor Sally, includes moves like Seated Side Stretches, Pigeon Pose, and Downward-Facing Dog. These stretches help to relieve the pressure on the sciatic nerve caused by pregnancy, improving back and leg pain.",
-      "keywords": "pregnancy sciatica pain, prenatal stretches, pregnancy workouts, sciatica pain, Pigeon Pose, Downward-Facing Dog"
-  },
-  "detailsHtml": `
+    {
+        "id": 8,
+        "title": "PREGNANCY SCIATICA PAIN Relief | Prenatal Stretches to Relieve Back & Leg Pain",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-08.webp",
+        "imageAlt": "A pregnant woman performing a prenatal stretch.",
+        "iframeUrl": "https://www.youtube.com/embed/5WAR2-dfa6c",
+        "categories": ["lower-back-stretches-for-pregnantwomen"],
+        "duration": "15 minutes",
+        "addressBar": "pregnancy-sciatica-pain-relief-stretches",
+        "description": "This video, led by a certified pre- and postnatal fitness instructor named Sally, offers a series of stretches designed for pregnancy sciatica pain to help relieve lower back and leg pain.",
+        "seo": {
+            "title": "Pregnancy Sciatica Pain Relief: A Guide to Prenatal Stretches",
+            "description": "This prenatal stretch routine, guided by instructor Sally, includes moves like Seated Side Stretches, Pigeon Pose, and Downward-Facing Dog. These stretches help to relieve the pressure on the sciatic nerve caused by pregnancy, improving back and leg pain.",
+            "keywords": "pregnancy sciatica pain, prenatal stretches, pregnancy workouts, sciatica pain, Pigeon Pose, Downward-Facing Dog"
+        },
+        "detailsHtml": `
       <h2>Pregnancy Sciatica Pain Relief</h2>
       <p>This video, led by Sally, a certified fitness instructor specializing in pre- and postnatal fitness, provides a series of stretches specifically for sciatica pain during pregnancy. Sally explains that as the baby grows and the uterus expands, it can put pressure on the sciatic nerve, causing inflammation, irritation, and sharp, shooting pains from the lower back down the leg. She recommends performing this series of stretches once a week to help relieve this pain.</p>
 
@@ -387,25 +387,25 @@ export const exercises = [
       <h3>8. Seated Hamstring Stretch</h3>
       <p>Seated with one leg extended, you bend the other leg and place the foot either next to or slightly above the knee. You then slightly bend your upper body forward with a straight back to stretch the muscles.</p>
   `
-},
+    },
 
-{
-  "id": 9,
-  "title": "5 Lower Back Stretches for Men",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-09.webp",
-  "imageAlt": "A person performing a lower back stretch.",
-  "iframeUrl": "https://www.youtube.com/embed/oWVJWeMgaUc",
-  "categories": ["lower-back-stretches-for-men"],
-  "duration": "12 minutes",
-  "addressBar": "5-lower-back-stretches",
-  "description": "This video provides five lower back stretches to help alleviate pain, strengthen the back, and prevent future pain. The instructor emphasizes that these are 'active' stretches that build strength and stability.",
-  "seo": {
-      "title": "5 Lower Back Stretches for Men: Build Strength and Stability",
-      "description": "Learn these five active stretches for the lower back, including the Cobra, Child's Pose, and Bridge. These movements help to strengthen the core and glutes, improve posture, and address the root cause of lower back pain.",
-      "keywords": "lower back pain, stretching, core strengthening, Cobra pose, Child's Pose, Bridge pose"
-  },
-  "detailsHtml": `
+    {
+        "id": 9,
+        "title": "5 Lower Back Stretches for Men",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-09.webp",
+        "imageAlt": "A person performing a lower back stretch.",
+        "iframeUrl": "https://www.youtube.com/embed/oWVJWeMgaUc",
+        "categories": ["lower-back-stretches-for-men"],
+        "duration": "12 minutes",
+        "addressBar": "5-lower-back-stretches",
+        "description": "This video provides five lower back stretches to help alleviate pain, strengthen the back, and prevent future pain. The instructor emphasizes that these are 'active' stretches that build strength and stability.",
+        "seo": {
+            "title": "5 Lower Back Stretches for Men: Build Strength and Stability",
+            "description": "Learn these five active stretches for the lower back, including the Cobra, Child's Pose, and Bridge. These movements help to strengthen the core and glutes, improve posture, and address the root cause of lower back pain.",
+            "keywords": "lower back pain, stretching, core strengthening, Cobra pose, Child's Pose, Bridge pose"
+        },
+        "detailsHtml": `
       <h2>5 Lower Back Stretches for Men</h2>
       <p>This video presents five lower back stretches designed to help alleviate pain. The instructor emphasizes that these are active stretches that build strength and stability, which is often more beneficial for chronic low back pain than passive stretching.</p>
       
@@ -425,25 +425,25 @@ export const exercises = [
       <h3>5. Bridge</h3>
       <p>This pose is primarily for strengthening the glutes, core, and lower back, rather than a passive stretch. It counters the effects of prolonged sitting by shortening and building strength in the lower back. For a deeper stretch, a yoga block can be placed under the lower back. The instructor suggests holding this pose for about one minute.</p>
   `
-},
+    },
 
-{
-  "id": 10,
-  "title": "Yoga Move for a Stiff Lower Back",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-10.webp",
-  "imageAlt": "A person performing a yoga move.",
-  "iframeUrl": "https://www.youtube.com/embed/QKFYo8VXYmY",
-  "categories": ["lower-back-stretches-for-men"],
-  "duration": "5 minutes",
-  "addressBar": "yoga-for-stiff-lower-back",
-  "description": "This video provides a short demonstration of a yoga movement to help relieve a stiff lower back and improve spinal mobility.",
-  "seo": {
-      "title": "Quick Yoga Move to Relieve a Stiff Lower Back",
-      "description": "Learn this simple yoga move, transitioning between Downward Dog and Upward Dog, to help decompress and extend your lower back, addressing stiffness and improving spinal flexibility.",
-      "keywords": "yoga, lower back pain, stiff spine, Downward Dog, Upward Dog"
-  },
-  "detailsHtml": `
+    {
+        "id": 10,
+        "title": "Yoga Move for a Stiff Lower Back",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-10.webp",
+        "imageAlt": "A person performing a yoga move.",
+        "iframeUrl": "https://www.youtube.com/embed/QKFYo8VXYmY",
+        "categories": ["lower-back-stretches-for-men"],
+        "duration": "5 minutes",
+        "addressBar": "yoga-for-stiff-lower-back",
+        "description": "This video provides a short demonstration of a yoga movement to help relieve a stiff lower back and improve spinal mobility.",
+        "seo": {
+            "title": "Quick Yoga Move to Relieve a Stiff Lower Back",
+            "description": "Learn this simple yoga move, transitioning between Downward Dog and Upward Dog, to help decompress and extend your lower back, addressing stiffness and improving spinal flexibility.",
+            "keywords": "yoga, lower back pain, stiff spine, Downward Dog, Upward Dog"
+        },
+        "detailsHtml": `
       <h2>Yoga Move for a Stiff Lower Back</h2>
       <p>This video provides a short demonstration of a yoga movement designed to help you relieve a stiff lower back, often caused by prolonged sitting or a lack of activity. The exercise focuses on the lumbar region of the spine, using both extension and decompression to improve mobility.</p>
 
@@ -462,25 +462,25 @@ export const exercises = [
       </ul>
       <p>This short practice is perfect for a quick break at the office or for starting your morning, as it can effectively wake up your body and say goodbye to lower back discomfort.</p>
   `
-},
+    },
 
-{
-  "id": 11,
-  "title": "6 Lower Back Pain Exercises",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-11.webp",
-  "imageAlt": "A physical therapist guiding lower back exercises.",
-  "iframeUrl": "https://www.youtube.com/embed/DxIeqiyYZkQ",
-  "categories": ["lower-back-stretches-for-men"],
-  "duration": "9 minutes",
-  "addressBar": "6-lower-back-pain-exercises",
-  "description": "This video, led by a physical therapist named Jared Beckstrand, provides a nine-minute routine of six exercises to help alleviate lower back pain and tension.",
-  "seo": {
-      "title": "9-Minute Lower Back Pain Relief: Stretches & Strengthening",
-      "description": "Learn this physical therapist-recommended routine for lower back pain, including lumbar rotations, piriformis stretch, glute bridges, and bird-dogs. These moves effectively relieve pain, build core stability, and prevent future discomfort.",
-      "keywords": "lower back pain, stretching, strengthening, physical therapy, glute bridges, bird-dogs, piriformis"
-  },
-  "detailsHtml": `
+    {
+        "id": 11,
+        "title": "6 Lower Back Pain Exercises",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-11.webp",
+        "imageAlt": "A physical therapist guiding lower back exercises.",
+        "iframeUrl": "https://www.youtube.com/embed/DxIeqiyYZkQ",
+        "categories": ["lower-back-stretches-for-men"],
+        "duration": "9 minutes",
+        "addressBar": "6-lower-back-pain-exercises",
+        "description": "This video, led by a physical therapist named Jared Beckstrand, provides a nine-minute routine of six exercises to help alleviate lower back pain and tension.",
+        "seo": {
+            "title": "9-Minute Lower Back Pain Relief: Stretches & Strengthening",
+            "description": "Learn this physical therapist-recommended routine for lower back pain, including lumbar rotations, piriformis stretch, glute bridges, and bird-dogs. These moves effectively relieve pain, build core stability, and prevent future discomfort.",
+            "keywords": "lower back pain, stretching, strengthening, physical therapy, glute bridges, bird-dogs, piriformis"
+        },
+        "detailsHtml": `
       <h2>6 Exercises for Lower Back Pain Relief</h2>
       <p>This video, led by Jared Beckstrand, a doctor of physical therapy, provides a nine-minute follow-along routine of six exercises designed to alleviate lower back pain and tension. He mentions that these are some of his favorite exercises that he recommends to patients daily. The routine is divided into three stretching exercises and three strengthening exercises.</p>
 
@@ -503,25 +503,25 @@ export const exercises = [
       <p>Start on all fours. Extend your left leg straight back while simultaneously reaching your right arm straight forward. Hold for two seconds, then alternate to the opposite arm and leg. This exercise helps with stabilization in the lower back.</p>
       <p>The video recommends doing the stretching exercises two to three times a day, and the strengthening exercises one to two times a day.</p>
   `
-},
+    },
 
-{
-  "id": 12,
-  "title": "6 Stretches for Tight Hips & Lower Back Pain",
-  "date": "2025-08-01",
-  "imageUrl": "/images/exercises/exercises-12.webp",
-  "imageAlt": "A physical therapist guiding a stretching routine.",
-  "iframeUrl": "https://www.youtube.com/embed/nm-fxV-bwWg",
-  "categories": ["lower-back-stretches-for-men"],
-  "duration": "6 minutes",
-  "addressBar": "hip-stretches-for-lower-back-pain",
-  "description": "This video, led by Dr. Derek Beckstrand, provides a six-minute routine of stretches for the hips and lower back, designed to relieve tightness, improve mobility, and reduce pain.",
-  "seo": {
-      "title": "6-Minute Hip & Lower Back Stretches: Relieve Tightness & Pain",
-      "description": "This physical therapist-recommended six-minute stretching routine includes moves for the glutes, piriformis, hamstrings, and hip flexors. It helps to alleviate hip tightness and lower back pain, improving overall mobility.",
-      "keywords": "hip stretches, lower back pain, piriformis, hamstrings, hip flexors, physical therapy"
-  },
-  "detailsHtml": `
+    {
+        "id": 12,
+        "title": "6 Stretches for Tight Hips & Lower Back Pain",
+        "date": "2025-08-01",
+        "imageUrl": "/images/exercises/exercises-12.webp",
+        "imageAlt": "A physical therapist guiding a stretching routine.",
+        "iframeUrl": "https://www.youtube.com/embed/nm-fxV-bwWg",
+        "categories": ["lower-back-stretches-for-men"],
+        "duration": "6 minutes",
+        "addressBar": "hip-stretches-for-lower-back-pain",
+        "description": "This video, led by Dr. Derek Beckstrand, provides a six-minute routine of stretches for the hips and lower back, designed to relieve tightness, improve mobility, and reduce pain.",
+        "seo": {
+            "title": "6-Minute Hip & Lower Back Stretches: Relieve Tightness & Pain",
+            "description": "This physical therapist-recommended six-minute stretching routine includes moves for the glutes, piriformis, hamstrings, and hip flexors. It helps to alleviate hip tightness and lower back pain, improving overall mobility.",
+            "keywords": "hip stretches, lower back pain, piriformis, hamstrings, hip flexors, physical therapy"
+        },
+        "detailsHtml": `
       <h2>6 Stretches for Tight Hips & Lower Back Pain</h2>
       <p>This video, led by Dr. Derek Beckstrand, provides a six-minute stretching routine to address tight hips and lower back pain. To get the maximum benefit, the instructor recommends performing the routine twice—once on each side. The routine consists of six stretches, with each one held for one minute, broken into two 30-second intervals.</p>
 
@@ -540,27 +540,27 @@ export const exercises = [
       <h3>6. Hip Flexor Stretch</h3>
       <p>While in a kneeling lunge position, lean forward into your front leg while squeezing your glutes. This move stretches the hip flexor muscles at the front of your hip, which can help with pelvic tilt and lower back tension.</p>
   `
-}
+    }
 
 
-  // {
-  //   id: 1,
-  //   title: '',
-  //   date: '2025-8-1',
-  //   imageUrl: '/images/Stretching-Exercises-01.webp',
-  //   imageAlt: '',
-  //   iframeUrl: 'https://www.youtube.com/embed/xo7Qpb_NTKE',
-  //   categories: ['', ''],
-  //   duration: '0-5 minutes',
-  //   addressBar: '',
-  //   description: '',
-  //   seo: {
-  //     title: '',
-  //     description: '',
-  //     keywords: ''
-  //   },
-  //   detailsHtml: `
-  //   `
-  // },
-  
+    //   {
+    //     id: 1,
+    //     title: '',
+    //     date: '2025-8-1',
+    //     imageUrl: '/images/Stretching-Exercises-01.webp',
+    //     imageAlt: '',
+    //     iframeUrl: 'https://www.youtube.com/embed/xo7Qpb_NTKE',
+    //     categories: ['', ''],
+    //     duration: '0-5 minutes',
+    //     addressBar: '',
+    //     description: '',
+    //     seo: {
+    //       title: '',
+    //       description: '',
+    //       keywords: ''
+    //     },
+    //     detailsHtml: `
+    //     `
+    //   },
+
 ] 

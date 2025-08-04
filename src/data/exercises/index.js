@@ -1,7 +1,8 @@
 // 导入各个分类的数据
 import { tab01 as tab01Data } from './tab-01.js'
-import { tab02 as tab02Data } from './tab-02js'
+import { tab02 as tab02Data } from './tab-02.js'
 import { tab03 as tab03Data } from './tab-03.js'
+import { tab04 as tab04Data } from './tab-04.js'
 
 // 分类配置，包含路由、TDK和显示名称
 export const exercisesConfig = [
@@ -42,6 +43,19 @@ export const exercisesConfig = [
             title: 'Lower Back Stretches for Men - Strength & Mobility',
             description: 'Build strength and improve mobility with lower back stretches designed for men. Expert-guided exercises to prevent injury and maintain peak performance.',
             keywords: 'men back exercises, strength training, mobility, injury prevention, back health'
+        }
+    },
+    {
+        id: 'tab-04',
+        path: '/lower-back-pain-relief-pain',
+        name: 'Lower Back Pain Relief Pain',
+        title: 'Lower Back Pain Relief Pain', // 页面标题
+        description: 'Discover effective lower back pain relief stretches and exercises to help you find relief from pain. Expert-guided exercises to strengthen your core and maintain a healthy spine.', // 页面描述
+        data: tab04Data,
+        seo: {
+            title: 'Lower Back Pain Relief Pain - Effective Stretches & Exercises',
+            description: 'Discover effective lower back pain relief stretches and exercises to help you find relief from pain. Expert-guided exercises to strengthen your core and maintain a healthy spine.',
+            keywords: 'lower back pain, pain relief, stretches, exercises, core strength, spine health'
         }
     }
 ]
