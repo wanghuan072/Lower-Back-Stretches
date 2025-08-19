@@ -52,8 +52,8 @@
       <!-- 下部分：版权和联系信息 -->
       <div class="footer-bottom">
         <p class="footer-copyright">
-          © 2025 BackFlex. All rights reserved. Always consult healthcare professionals for medical
-          advice.
+          © 2025 lowerbackstretche.org All rights reserved. Always consult healthcare professionals
+          for medical advice.
         </p>
       </div>
     </div>
