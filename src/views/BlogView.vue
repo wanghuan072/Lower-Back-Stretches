@@ -166,6 +166,9 @@ export default {
   font-weight: 600;
   color: #1f2937;
   line-height: 1.3;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .blog-excerpt {
