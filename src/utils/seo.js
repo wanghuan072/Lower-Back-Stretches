@@ -27,21 +27,21 @@ const defaultSocial = {
  */
 export function setPageSEO(seo = {}, canonicalUrl = null) {
   const { title, description, keywords } = { ...defaultSEO, ...seo }
-  
+
   // 设置页面标题
   document.title = title
-  
+
   // 设置meta description
   setMetaTag('description', description)
-  
+
   // 设置meta keywords
   setMetaTag('keywords', keywords)
-  
+
   // 设置canonical URL
   if (canonicalUrl) {
     setCanonicalUrl(canonicalUrl)
   }
-  
+
   // 统一设置社交媒体标签
   setSocialTags(title, description)
 }
@@ -61,7 +61,7 @@ export function setSocialTags(title, description, type = 'website') {
   setMetaTag('og:type', type)
   setMetaTag('og:url', window.location.href)
   setMetaTag('og:site_name', defaultSocial.siteName)
-  
+
   // Twitter Card标签
   setMetaTag('twitter:card', defaultSocial.twitterCard)
   setMetaTag('twitter:site', defaultSocial.twitterSite)
@@ -80,7 +80,7 @@ export function setSocialTags(title, description, type = 'website') {
 function setMetaTag(name, content) {
   // 先查找已存在的标签
   let metaTag = document.querySelector(`meta[name="${name}"], meta[property="${name}"]`)
-  
+
   if (!metaTag) {
     // 如果不存在，创建新标签
     metaTag = document.createElement('meta')
@@ -92,7 +92,7 @@ function setMetaTag(name, content) {
     }
     document.head.appendChild(metaTag)
   }
-  
+
   // 更新content属性
   metaTag.setAttribute('content', content)
 }
@@ -103,14 +103,14 @@ function setMetaTag(name, content) {
  */
 function setCanonicalUrl(url) {
   let canonicalLink = document.querySelector('link[rel="canonical"]')
-  
+
   if (!canonicalLink) {
     // 如果不存在，创建新标签
     canonicalLink = document.createElement('link')
     canonicalLink.setAttribute('rel', 'canonical')
     document.head.appendChild(canonicalLink)
   }
-  
+
   // 更新href属性
   canonicalLink.setAttribute('href', url)
 }
@@ -138,36 +138,37 @@ export function getSEOFromRoute(route) {
  */
 export function setDetailPageSEO(item, type = 'article') {
   if (!item) return
-  
+
   const seo = item.seo || {}
-  const defaultTitle = type === 'article' 
+  const isArticleLike = type === 'article' || type === 'blog'
+  const defaultTitle = isArticleLike
     ? `${item.title} - Back Health Article`
     : `${item.title} - Lower Back Exercise`
-  
+
   const defaultDescription = item.description || 'Learn more about this back health topic.'
-  const defaultKeywords = type === 'article'
+  const defaultKeywords = isArticleLike
     ? 'back health, spine care, back pain, health article'
     : 'lower back exercise, back stretch, spine health'
-  
+
   const title = seo.title || defaultTitle
   const description = seo.description || defaultDescription
   const keywords = seo.keywords || defaultKeywords
-  
+
   // 生成canonical URL
   const baseUrl = 'https://lowerbackstretches.org'
-  const canonicalUrl = type === 'article' 
+  const canonicalUrl = isArticleLike
     ? `${baseUrl}/blog/${item.addressBar}`
     : `${baseUrl}/exercises/${item.addressBar}`
-  
+
   // 设置基础SEO和社交媒体标签
   setPageSEO({
     title,
     description,
     keywords
   }, canonicalUrl)
-  
+
   // 更新社交媒体类型
-  setSocialTags(title, description, type === 'article' ? 'article' : 'website')
+  setSocialTags(title, description, isArticleLike ? 'article' : 'website')
 }
 
 /**
