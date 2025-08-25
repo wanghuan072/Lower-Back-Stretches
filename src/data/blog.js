@@ -420,7 +420,49 @@ export const articles = [
     <h2>A Final Word on Prevention</h2>
     <p>While stretching is a fantastic way to relieve existing pain, preventing it is even better. Strengthening your core, back, and abdominal muscles is key. A strong core provides the necessary support to keep your spine in a neutral, healthy position, which not only relieves current pain but also reduces your risk of future injury. Consistent movement and a focus on muscle balance will help you maintain a healthy, pain-free back for years to come.</p>
     `
+  },
+
+  {
+    "id": 4,
+    "title": "Lower Back Pain Self-Help Guide: Stretches, Prevention, and Harmful Movements to Avoid",
+    "date": "2025-08-25",
+    "addressBar": "lower-back-pain-guide",
+    "description": "Lower back pain troubles many people. This guide explains the causes of lower back pain, effective stretches, and warns of three movements that can harm your back, helping to relieve pain and prevent recurrence.",
+    "imageUrl": "/images/blog/blog04.webp",
+    "imageAlt": "A person performing a back stretch, symbolizing relief and flexibility for the lower back.",
+    "category": "Health, Wellness, Stretching",
+    "author": "Health Assistant",
+    "seo": {
+      "title": "Lower Back Pain Relief Guide and Three Harmful Movements to Avoid",
+      "description": "This guide details the causes of lower back pain, provides effective stretches, and warns against bending to touch the floor, sit-ups, and twisting on waist exercisers, helping relieve lower back pain.",
+      "keywords": "lower back pain, back pain relief, stretching exercises, bending to touch floor, sit-ups, waist exerciser"
+    },
+    "isRelated": true,
+    "detailsHtml": `
+    <h2>Causes and Risks of Lower Back Pain</h2>
+    <img src="/images/blog/blog04-01.webp" width="50%" alt="Diagram of the lower back pain" />
+    <p>"Lower back pain" is a problem affecting many people. Poor postures like slouching or bending forward can put the muscles around the lower back under tension and stiffness, applying excessive pressure on the lumbar spine and causing discomfort!</p>
+    <img src="/images/blog/blog04-04.webp" width="50%" alt="Diagram of the lower back pain" />
+    <p>We can perform certain movements to quickly and effectively stretch the major muscles of the lower back. Doing these stretches helps prevent back pain and provides some supportive effect in treating it. The lower back covers a broad area, including the neck, thoracic region, and lumbar-sacral region. The causes of back pain are complex and varied, and many factors or diseases can trigger it—sometimes the cause is not even in the back itself but in other parts of the body.</p>
+    <p>Some causes of lower back pain include: stress or injury to back muscles, such as strains or sprains; chronic overload from obesity; short-term muscle overload from unusual stress, such as lifting heavy objects or pregnancy; spinal bone diseases or injuries, including fractures or osteoporosis-related fractures; spinal nerve problems, such as herniated discs or spinal stenosis; diseases or injuries of internal organs, such as kidney infections or heart disease; infections in discs, bones, abdomen, or blood; tumors or cancers spreading to the spine; degenerative arthritis, a wear-and-tear process related to age, injury, and genetic predisposition.</p>
+    <img src="/images/blog/blog04-03.webp" width="50%" alt="Diagram of the lower back pain" />
+    <p>Since humans descended from trees to upright bipedal posture, back pain has accompanied humanity. Apart from the natural spinal structure, muscles and ligaments connecting the bones are high-risk areas for pain.</p>
+    <p>The psoas major on both sides of the spine, quadratus lumborum in the lower back, rectus abdominis, external and internal obliques, latissimus dorsi, trapezius, rhomboids, and other muscles both support movement and stabilize the spine. When we sit or stand for long periods, lack exercise, sprain, or perform intense activity, muscles in the back, buttocks, and thighs often become sore and stiff. Pain usually appears the next day in areas that may be tender to touch or pressure.</p>
+    <img src="/images/blog/blog04-02.webp" width="50%" alt="Diagram of the lower back pain" />
+    <p>Although these muscle pains typically subside in a few days or weeks, gradually restoring normal activity, back pain is severe while it lasts, affecting work, life, and even sleep. Besides taking painkillers, anti-inflammatory medication, massage, rest, or hot/cold therapy, and avoiding movements that worsen symptoms:</p>
+    <h2>Warning! Three Movements That Can Harm Your Back</h2>
+    <h3>Harmful Movement 1: Bending to Touch the Floor</h3>
+    <p>This movement increases pressure on the lumbar spine and discs, overstretching muscles and ligaments. People with herniated discs can worsen their condition. Similar movements like the downward dog pose or bending to lift heavy objects also put great stress on discs. Avoid these if you have back problems.</p>
+    <img src="/images/blog/blog04-05.webp" width="50%" alt="Diagram of the lower back pain" />
+    <h3>Harmful Movement 2: Sit-Ups</h3>
+    <p>Sit-ups rely mainly on core strength but place very high pressure on the lumbar spine. The arching during the exercise can damage the spine, and those with herniated discs may worsen their condition.</p>
+    <img src="/images/blog/blog04-06.webp" width="50%" alt="Diagram of the lower back pain" />
+    <h3>Harmful Movement 3: Twisting on a Waist Exerciser</h3>
+    <p>Often seen in older adults twisting rapidly on waist exercisers, this is not recommended for elderly or patients with degenerated lumbar spine. Twisting puts the disc fibers under tension, reducing disc height and slightly compressing the nucleus pulposus, aggravating the condition.</p>
+    <img src="/images/blog/blog04-07.webp" width="50%" alt="Diagram of the lower back pain" />
+    `
   }
+
 
 
 
