@@ -461,7 +461,125 @@ export const articles = [
     <p>Often seen in older adults twisting rapidly on waist exercisers, this is not recommended for elderly or patients with degenerated lumbar spine. Twisting puts the disc fibers under tension, reducing disc height and slightly compressing the nucleus pulposus, aggravating the condition.</p>
     <img src="/images/blog/blog04-07.webp" width="50%" alt="Diagram of the lower back pain" />
     `
+  },
+
+  {
+    "id": 5,
+    "title": "18 Essential Stretching Exercises Before Workout",
+    "date": "2025-09-02",
+    "addressBar": "stretching-exercises-before-workout",
+    "description": "This guide introduces 18 essential stretching exercises to prepare your body before a workout. Learn which muscles each stretch targets, how to perform them safely, and tips to prevent injury while improving flexibility.",
+    "imageUrl": "/images/blog/blog05.webp",
+    "imageAlt": "Person performing warm-up stretches before workout for better flexibility.",
+    "category": "Fitness, Wellness, Stretching",
+    "author": "Health Assistant",
+    "seo": {
+      "title": "18 Essential Stretching Exercises Before Workout – Full Guide",
+      "description": "Learn 18 stretching exercises to prepare your muscles before workout. Improve flexibility, prevent injuries, and perform each stretch safely with step-by-step guidance.",
+      "keywords": "stretching exercises, warm-up stretches, flexibility, injury prevention, workout preparation"
+    },
+    "isRelated": true,
+    "detailsHtml": `
+      <h2>Why Stretching Before Exercise Matters</h2>
+      <p>Before starting any workout, preparing your body with stretching exercises is essential. A proper warm-up improves blood circulation in the muscles, reduces stiffness, increases flexibility, and lowers the risk of injury. Unlike rushing or forcing movements, stretching should be performed steadily and controlled. If you are unfamiliar with certain exercises, seek guidance from a professional rather than attempting them alone.</p>
+      
+      <h2>18 Stretching Exercises</h2>
+      
+      <h3>01. Stretching the muscles that flex your neck</h3>
+      <p><strong>Target Muscle:</strong>sternocleidomastoid muscle<br>
+      <strong>Key Point:</strong>Place your hands on your hips, straighten your back, and gently lift your head upward.</p>
+      <img src="/images/blog/blog05-01.webp" width="50%" alt="Neck extension stretch exercise" />
+  
+      <h3>02. Stretch the side muscles of the neck with your hands</h3>
+      <p><strong>Target Muscle:</strong> sternocleidomastoid muscle<br>
+      <strong>Key Point:</strong> Place your hands on your hips, straighten your back, and gently lift your head upward.</p>
+      <img src="/images/blog/blog05-02.webp" width="50%" alt="Assisted neck side stretch exercise" />
+  
+      <h3>03. Child's Pose</h3>
+      <p><strong>Target Muscle:</strong>back muscles<br>
+      <strong>Key Point:</strong>Kneel with your legs apart, sit your buttocks toward your heels, and lean forward, trying to touch the ground with your forehead.</p>
+      <img src="/images/blog/blog05-03.webp" width="50%" alt="Child's pose stretch" />
+  
+      <h3>04. Camel pose</h3>
+      <p><strong>Target Muscles:</strong> rectus abdominis and external obliques<br>
+      <strong>Key Point:</strong> Push your hips forward and slightly upward without squeezing your lower back too much.</p>
+      <img src="/images/blog/blog05-04.webp" width="50%" alt="Camel pose back stretch" />
+  
+      <h3>05. Wall chest stretch</h3>
+      <p><strong>Target Muscles:</strong> The broadest muscles of the back and chest.<br>
+      <strong>Key Point:</strong>Stand facing the wall, push the wall with your right hand, and slowly move your body away from the wall. Repeat on the other side.</p>
+      <img src="/images/blog/blog05-05.webp" width="50%" alt="Chest and back wall stretch" />
+  
+      <h3>06. Wide-angle</h3>
+      <p><strong>Target Muscles:</strong> Adductors and hamstrings.<br>
+      <strong>Key Point:</strong>Sit on the floor with your legs straight and open without bending your knees. Lean forward and stretch your arms forward along your legs.</p>
+      <img src="/images/blog/blog05-06.webp" width="50%" alt="Seated wide-angle forward bend stretch" />
+  
+      <h3>07. Side Shoulder Stretch</h3>
+      <p><strong>Target Muscle:</strong> Lateral deltoid muscle.<br>
+      <strong>Key Point:</strong>Stand with your arm straight, pressing gently to increase the stretch in the muscle, and repeat with your other arm.</p>
+      <img src="/images/blog/blog05-07.webp" width="50%" alt="Side shoulder stretch exercise" />
+  
+      <h3>08. Standing Neck Stretch</h3>
+      <p><strong>Target Muscle:</strong> Trapezius muscle.<br>
+      <strong>Key Point:</strong> Stand with your legs together, knees slightly bent, and use your hands to tilt your head forward, bringing your chin to your chest.</p>
+      <img src="/images/blog/blog05-08.webp" width="50%" alt="Standing neck stretch exercise" />
+  
+      <h3>09. Triangle Pose</h3>
+      <p><strong>Target Muscle:</strong> External obliques.<br>
+      <strong>Key Point:</strong>Place your hand in front of your standing leg, keep your back straight, and lift your opposite arm, allowing your hips to open from front to back.</p>
+      <img src="/images/blog/blog05-09.webp" width="50%" alt="Triangle pose stretch" />
+  
+      <h3>10. Downward Dog Pose</h3>
+      <p><strong>Target Muscles:</strong> The broadest muscles of the back and chest.<br>
+      <strong>Key Point:</strong>Stand at arm's length against a wall, with your torso parallel to the floor. Keeping your back flat, slowly bend from your chest.</p>
+      <img src="/images/blog/blog05-10.webp" width="50%" alt="Wall downward dog stretch" />
+  
+      <h3>11. Supine Spinal Twist</h3>
+      <p><strong>Target Muscles:</strong> sternocleidomastoid muscle<br>
+      <strong>Key Point:</strong>Place your hands on your hips, straighten your back, and gently lift your head upward.</p>
+      <img src="/images/blog/blog05-11.webp" width="50%" alt="Supine spinal twist stretch" />
+  
+      <h3>12. Standing side bend</h3>
+      <p><strong>Target Muscles:</strong>The external obliques and the broadest muscle of the back.<br>
+      <strong>Key Point:</strong>Stand up, bend your body to the right, and repeat the exercise on the left.</p>
+      <img src="/images/blog/stretch-12.webp" width="50%" alt="Standing side bend stretch" />
+  
+      <h3>13. Simple One-Legged Forward Bend</h3>
+      <p><strong>Target Muscle:</strong> Hamstrings.<br>
+      <strong>Key Point:</strong>Stand with one foot forward and your back straight. Place your hands on your hips and fold forward from your hips. Repeat with your other leg.</p>
+      <img src="/images/blog/blog05-13.webp" width="50%" alt="One-leg forward fold stretch" />
+  
+      <h3>14. Butterfly Pose</h3>
+      <p><strong>Target Muscle:</strong> Adductor muscles.<br>
+      <strong>Key Point:</strong>Sit down with your knees bent, feet together, back straight, and gently place your hands on your knees, lowering your hips and knees toward the ground.</p>
+      <img src="/images/blog/blog05-14.webp" width="50%" alt="Butterfly stretch for inner thighs" />
+  
+      <h3>15. Baby in Arms</h3>
+      <p><strong>Target Muscle:</strong>Hip flexors.<br>
+      <strong>Key Point:</strong>Sit on the floor with your back straight and slowly pull one leg up to your chest, rotating your thigh out, and repeat with the other leg.</p>
+      <img src="/images/blog/blog05-15.webp" width="50%" alt="Baby cradle hip stretch" />
+  
+      <h3>16. Seated Pigeon Pose</h3>
+      <p><strong>Target Muscle:</strong>anterior tibia<br>
+      <strong>Key Point:</strong>Sit on the floor, bring your right hand back, hold your right foot with your hand and place it on your left knee, repeat with your left foot.</p>
+      <img src="/images/blog/blog05-16.webp" width="50%" alt="Seated pigeon hip stretch" />
+  
+      <h3>17. Forward Bend Fold</h3>
+      <p><strong>Target Muscles:</strong> Hamstrings and calf muscles.<br>
+      <strong>Key Point:</strong>Sit on the floor with your legs straight and together and folded forward.</p>
+      <img src="/images/blog/blog05-17.webp" width="50%" alt="Forward fold stretch" />
+  
+      <h3>18. Stretch your waist muscles</h3>
+      <p><strong>Target Muscles:</strong>Lower back muscles and quadriceps.<br>
+      <strong>Key Point:</strong>In a lunge position, bend your left leg 90 degrees in front of you. Grab your right foot toward your waist and repeat with your other foot.</p>
+      <img src="/images/blog/blog05-18.webp" width="50%" alt="Hip flexor and quad stretch" />
+  
+      <h2>Final Notes</h2>
+      <p>Performing these 18 stretching exercises before a workout can significantly improve flexibility, enhance performance, and reduce injury risks. Always move slowly, avoid forcing your body, and stay consistent with your stretching routine for long-term benefits.</p>
+    `
   }
+
 
 
 
